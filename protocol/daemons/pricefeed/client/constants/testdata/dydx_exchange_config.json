@@ -1,0 +1,29 @@
+{
+  "exchanges": [
+    {
+      "exchangeName": "Binance",
+      "ticker": "BTOROUSDT",
+      "adjustByMarket": "USDT-USD"
+    },
+    {
+      "exchangeName": "Bybit",
+      "ticker": "BTOROUSDT",
+      "adjustByMarket": "USDT-USD"
+    },
+    {
+      "exchangeName": "Gate",
+      "ticker": "BTORO_USDT",
+      "adjustByMarket": "USDT-USD"
+    },
+    {
+      "exchangeName": "Kucoin",
+      "ticker": "BTORO-USDT",
+      "adjustByMarket": "USDT-USD"
+    },
+    {
+      "exchangeName": "Okx",
+      "ticker": "BTORO-USDT",
+      "adjustByMarket": "USDT-USD"
+    }
+  ]
+}

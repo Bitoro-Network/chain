@@ -1,0 +1,9 @@
+{
+    "extends": "./node_modules/@bitoroprotocol/node-service-base-dev/tsconfig.json",
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

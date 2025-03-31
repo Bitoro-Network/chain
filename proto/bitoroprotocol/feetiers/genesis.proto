@@ -1,0 +1,13 @@
+syntax = "proto3";
+package bitoroprotocol.feetiers;
+
+import "gogoproto/gogo.proto";
+import "bitoroprotocol/feetiers/params.proto";
+
+option go_package = "github.com/bitoro-network/chain/protocol/x/feetiers/types";
+
+// GenesisState defines the feetiers module's genesis state.
+message GenesisState {
+  // The parameters for perpetual fees.
+  PerpetualFeeParams params = 1 [ (gogoproto.nullable) = false ];
+}

@@ -1,0 +1,16 @@
+.gen
+.proto-export
+.proto-export-deps
+chain-proto-py/build
+chain-proto-py/dist
+chain-proto-py/chain_proto.egg-info/
+chain-proto-py/chain_proto
+chain-proto-js/build
+chain-proto-js/node_modules
+chain-proto-js/src
+chain-proto-rs/target
+chain-proto-rs/Cargo.lock
+
+.idea
+.vscode
+**/.DS_Store

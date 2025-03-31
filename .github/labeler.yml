@@ -1,0 +1,8 @@
+indexer:
+  - indexer/**
+proto:
+  - chain-proto-py/**
+  - chain-proto-js/**
+  - proto/**
+protocol:
+  - protocol/**

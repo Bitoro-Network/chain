@@ -1,0 +1,37 @@
+{
+  "name": "@bitoroprotocol-indexer/notifications",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/src/index.js",
+  "devDependencies": {
+    "@bitoroprotocol-indexer/dev": "workspace:^0.0.1",
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "typescript": "^4.7.4",
+    "ts-node": "^10.8.2"
+  },
+  "scripts": {
+    "lint": "eslint --ext .ts,.js .",
+    "lint:fix": "eslint --ext .ts,.js . --fix",
+    "build": "rm -rf build/ && tsc",
+    "build:prod": "pnpm run build",
+    "build:watch": "pnpm run build -- --watch",
+    "test": "NODE_ENV=test jest --runInBand --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitoro-network/chain-indexer.git"
+  },
+  "author": "",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/bitoro-network/chain-indexer/issues"
+  },
+  "homepage": "https://github.com/bitoro-network/chain-indexer#readme",
+  "dependencies": {
+    "firebase-admin": "^12.4.0",
+    "@bitoroprotocol-indexer/base": "workspace:^0.0.1",
+    "@bitoroprotocol-indexer/postgres": "workspace:^0.0.1",
+    "dotenv-flow": "^3.2.0"
+  }
+}

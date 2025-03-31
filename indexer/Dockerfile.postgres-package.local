@@ -1,0 +1,47 @@
+# Dockerfile to containerize postgres package locally
+FROM bitoroprotocol/indexer-node:16-alpine-m1
+ENV NODE_ENV=development
+
+RUN adduser -S bitoro
+RUN mkdir -p /home/bitoro/app
+RUN chown bitoro -R /home/bitoro/app
+
+WORKDIR /home/bitoro/app
+
+# Copy pnpm lock and workspace and package.json from base directory
+COPY ./pnpm-lock.yaml ./pnpm-workspace.yaml ./package.json ./
+
+# Copy patches
+COPY ./patches ./patches
+
+# Copy package.json from postgres and imported packages being run
+COPY ./packages/base/package.json ./packages/base/
+COPY ./packages/postgres/package.json ./packages/postgres/
+COPY ./packages/chain-protos/package.json ./packages/chain-protos/
+COPY ./packages/chain-proto-parser/package.json ./packages/chain-proto-parser/
+
+# Copy build files from postgres and imported packages being run
+COPY ./packages/base/build ./packages/base/build/
+COPY ./packages/postgres/build ./packages/postgres/build/
+COPY ./packages/chain-protos/build ./packages/chain-protos/build/
+COPY ./packages/chain-proto-parser/build ./packages/chain-proto-parser/build/
+
+# Copy src directory from postgres for migrations
+COPY ./packages/postgres/src ./packages/postgres/src
+
+# Copy knexfile.js for configurations
+COPY ./packages/postgres/knexfile.js ./packages/postgres
+
+# Copy .env files
+COPY ./packages/postgres/.env* ./packages/postgres/
+
+RUN chown bitoro -R /home/bitoro/app
+
+USER bitoro
+
+# Install npm modules using pnpm
+RUN pnpm i --loglevel warn --production --frozen-lockfile --unsafe-perm
+
+WORKDIR /home/bitoro/app/packages/postgres
+
+CMD ["sh", "-c", "pnpm run migrate"]

@@ -1,0 +1,12 @@
+syntax = "proto3";
+package bitoroprotocol.revshare;
+
+import "gogoproto/gogo.proto";
+import "bitoroprotocol/revshare/params.proto";
+
+option go_package = "github.com/bitoro-network/chain/protocol/x/revshare/types";
+
+// GenesisState defines `x/revshare`'s genesis state.
+message GenesisState {
+  MarketMapperRevenueShareParams params = 1 [ (gogoproto.nullable) = false ];
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+package bitoroprotocol.stats;
+
+import "gogoproto/gogo.proto";
+import "bitoroprotocol/stats/params.proto";
+
+option go_package = "github.com/bitoro-network/chain/protocol/x/stats/types";
+
+// GenesisState defines the stats module's genesis state.
+message GenesisState {
+  // The parameters of the module.
+  Params params = 1 [ (gogoproto.nullable) = false ];
+}
