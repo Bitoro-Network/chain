@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/epochs/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"

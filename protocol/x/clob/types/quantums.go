@@ -4,8 +4,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // FillAmountToQuoteQuantums converts a fill amount denoted in base quantums, to a price denoted in quote

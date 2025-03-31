@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/x/stats/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/stats/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/x/stats/keeper"
+	"github.com/bitoro-network/chain/protocol/x/stats/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	"github.com/stretchr/testify/require"

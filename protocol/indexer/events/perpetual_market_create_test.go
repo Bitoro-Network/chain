@@ -3,9 +3,9 @@ package events
 import (
 	"testing"
 
-	v1types "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	v1types "github.com/bitoro-network/chain/protocol/indexer/protocol/v1/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 
 	"github.com/stretchr/testify/require"
 )

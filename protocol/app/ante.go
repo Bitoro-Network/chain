@@ -12,16 +12,16 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
 
-	customante "github.com/Bitoro-Network/chain/protocol/app/ante"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	libante "github.com/Bitoro-Network/chain/protocol/lib/ante"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	accountplusante "github.com/Bitoro-Network/chain/protocol/x/accountplus/ante"
-	accountpluskeeper "github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
-	clobante "github.com/Bitoro-Network/chain/protocol/x/clob/ante"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perpetualstypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	customante "github.com/bitoro-network/chain/protocol/app/ante"
+	"github.com/bitoro-network/chain/protocol/lib"
+	libante "github.com/bitoro-network/chain/protocol/lib/ante"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	accountplusante "github.com/bitoro-network/chain/protocol/x/accountplus/ante"
+	accountpluskeeper "github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
+	clobante "github.com/bitoro-network/chain/protocol/x/clob/ante"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perpetualstypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 // HandlerOptions are the options required for constructing an SDK AnteHandler.

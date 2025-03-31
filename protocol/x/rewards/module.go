@@ -6,15 +6,15 @@ import (
 	"fmt"
 
 	"cosmossdk.io/core/appmodule"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/log"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/Bitoro-Network/chain/protocol/x/rewards/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/rewards/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/rewards/types"
+	"github.com/bitoro-network/chain/protocol/x/rewards/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/rewards/keeper"
+	"github.com/bitoro-network/chain/protocol/x/rewards/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"

@@ -1,8 +1,8 @@
 package vault
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/vault/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/keeper"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

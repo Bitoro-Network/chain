@@ -1,10 +1,10 @@
 package cmd
 
 import (
-	appflags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	daemonflags "github.com/Bitoro-Network/chain/protocol/daemons/flags"
-	"github.com/Bitoro-Network/chain/protocol/indexer"
-	clobflags "github.com/Bitoro-Network/chain/protocol/x/clob/flags"
+	appflags "github.com/bitoro-network/chain/protocol/app/flags"
+	daemonflags "github.com/bitoro-network/chain/protocol/daemons/flags"
+	"github.com/bitoro-network/chain/protocol/indexer"
+	clobflags "github.com/bitoro-network/chain/protocol/x/clob/flags"
 	"github.com/spf13/cobra"
 )
 

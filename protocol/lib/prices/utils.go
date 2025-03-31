@@ -3,7 +3,7 @@ package prices
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 	"github.com/shopspring/decimal"
 )
 

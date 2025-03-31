@@ -8,12 +8,12 @@ import (
 	"cosmossdk.io/log"
 	"google.golang.org/grpc"
 
-	appflags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	pricefeedmetrics "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics"
-	daemonlib "github.com/Bitoro-Network/chain/protocol/daemons/shared"
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
-	"github.com/Bitoro-Network/chain/protocol/lib/slinky"
-	pricetypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	appflags "github.com/bitoro-network/chain/protocol/app/flags"
+	pricefeedmetrics "github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics"
+	daemonlib "github.com/bitoro-network/chain/protocol/daemons/shared"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
+	"github.com/bitoro-network/chain/protocol/lib/slinky"
+	pricetypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	slinkytypes "github.com/skip-mev/slinky/pkg/types"
 )
 

@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	big_testutil "github.com/Bitoro-Network/chain/protocol/testutil/big"
+	"github.com/bitoro-network/chain/protocol/lib"
+	big_testutil "github.com/bitoro-network/chain/protocol/testutil/big"
 	"github.com/stretchr/testify/require"
 )
 

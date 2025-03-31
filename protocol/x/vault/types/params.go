@@ -4,8 +4,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
 )
 
 // DefaultQuotingParams returns a default set of `x/vault` parameters.

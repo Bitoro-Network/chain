@@ -9,8 +9,8 @@ import (
 	"github.com/cosmos/gogoproto/proto"
 	gometrics "github.com/hashicorp/go-metrics"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/ante"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/lib/ante"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 )
 
 // GetGroupMsgOther returns two separate slices of byte txs given a single slice of byte txs and max bytes.

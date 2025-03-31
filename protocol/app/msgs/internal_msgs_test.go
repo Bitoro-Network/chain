@@ -4,8 +4,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/msgs"
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/app/msgs"
+	"github.com/bitoro-network/chain/protocol/lib"
 	"github.com/stretchr/testify/require"
 )
 

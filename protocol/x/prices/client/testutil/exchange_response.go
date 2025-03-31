@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	client_types "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
+	client_types "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 	"github.com/h2non/gock"
 	"github.com/stretchr/testify/require"
 )

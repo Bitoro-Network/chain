@@ -5,10 +5,10 @@ import (
 
 	"cosmossdk.io/log"
 	storetypes "cosmossdk.io/store/types"
-	bridgeserver "github.com/Bitoro-Network/chain/protocol/daemons/server/types/bridge"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	bridgeserver "github.com/bitoro-network/chain/protocol/daemons/server/types/bridge"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

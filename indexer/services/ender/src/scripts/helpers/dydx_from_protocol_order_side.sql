@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION bitoro_from_protocol_order_side(order_side jsonb) RETURNS text AS $$
 /**
-  Converts the 'Side' enum from the IndexerOrder protobuf (https://github.com/Bitoro-Network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/protocol/v1/clob.proto#L56)
+  Converts the 'Side' enum from the IndexerOrder protobuf (https://github.com/bitoro-network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/protocol/v1/clob.proto#L56)
   to the 'OrderSide' enum in postgres.
 
   (Note that no text should exist before the function declaration to ensure that exception line numbers are correct.)

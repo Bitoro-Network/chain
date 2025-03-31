@@ -3,9 +3,9 @@ package vault
 import (
 	"runtime/debug"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/abci"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/keeper"
+	"github.com/bitoro-network/chain/protocol/lib/abci"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/x/vault/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

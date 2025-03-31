@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cometbft/cometbft/types"
 	"github.com/cosmos/cosmos-sdk/types/query"

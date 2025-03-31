@@ -18,15 +18,15 @@ import (
 	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/app/ante"
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	slinkylib "github.com/Bitoro-Network/chain/protocol/lib/slinky"
-	testante "github.com/Bitoro-Network/chain/protocol/testutil/ante"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	assets "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	perpetualtypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	prices_types "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/app/ante"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	slinkylib "github.com/bitoro-network/chain/protocol/lib/slinky"
+	testante "github.com/bitoro-network/chain/protocol/testutil/ante"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	assets "github.com/bitoro-network/chain/protocol/x/assets/types"
+	perpetualtypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	prices_types "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 func TestIsMarketUpdateTx(t *testing.T) {

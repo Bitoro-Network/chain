@@ -7,10 +7,10 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/Bitoro-Network/chain/protocol/app/config"
-	"github.com/Bitoro-Network/chain/protocol/daemons/constants"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/app/config"
+	"github.com/bitoro-network/chain/protocol/daemons/constants"
+	"github.com/bitoro-network/chain/protocol/lib"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethabi "github.com/ethereum/go-ethereum/accounts/abi"
 	ethcoretypes "github.com/ethereum/go-ethereum/core/types"

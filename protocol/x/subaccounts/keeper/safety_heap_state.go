@@ -2,8 +2,8 @@ package keeper
 
 import (
 	"cosmossdk.io/store/prefix"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	gogotypes "github.com/cosmos/gogoproto/types"
 )
 

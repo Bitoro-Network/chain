@@ -3,8 +3,8 @@ package util
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 )
 
 // GetBaseline returns the current capacity baseline for the given limiter.

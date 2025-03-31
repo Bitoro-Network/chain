@@ -1,6 +1,6 @@
 package types
 
-import "github.com/Bitoro-Network/chain/protocol/dtypes"
+import "github.com/bitoro-network/chain/protocol/dtypes"
 
 // DefaultParams defines the default parameters for listing vault deposits.
 func DefaultParams() ListingVaultDepositParams {

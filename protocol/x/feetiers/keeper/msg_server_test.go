@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/x/feetiers/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/x/feetiers/keeper"
+	"github.com/bitoro-network/chain/protocol/x/feetiers/types"
 	"github.com/stretchr/testify/require"
 )
 

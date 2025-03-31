@@ -15,9 +15,9 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/network"
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/types"
+	"github.com/bitoro-network/chain/protocol/testutil/network"
+	"github.com/bitoro-network/chain/protocol/x/epochs/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/epochs/types"
 )
 
 // Prevent strconv unused error

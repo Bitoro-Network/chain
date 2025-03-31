@@ -3,10 +3,10 @@ package events_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/indexer/events"
-	v1types "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1/types"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/indexer/events"
+	v1types "github.com/bitoro-network/chain/protocol/indexer/protocol/v1/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 
 	"github.com/stretchr/testify/require"
 )

@@ -3,14 +3,14 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 
-	"github.com/Bitoro-Network/chain/protocol/x/vault/keeper"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/keeper"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 	"github.com/cometbft/cometbft/types"
 	"github.com/stretchr/testify/require"
 )

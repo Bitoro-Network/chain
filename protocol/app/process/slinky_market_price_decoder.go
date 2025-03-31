@@ -6,9 +6,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/skip-mev/slinky/abci/ve"
 
-	"github.com/Bitoro-Network/chain/protocol/app/constants"
-	"github.com/Bitoro-Network/chain/protocol/app/prepare/prices"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/app/constants"
+	"github.com/bitoro-network/chain/protocol/app/prepare/prices"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 // SlinkyMarketPriceDecoder wraps an existing MarketPriceDecoder with logic to verify that the MarketPriceUpdateTx

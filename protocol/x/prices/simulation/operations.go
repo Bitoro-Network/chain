@@ -6,12 +6,12 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/Bitoro-Network/chain/protocol/app/module"
+	"github.com/bitoro-network/chain/protocol/app/module"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/sim_helpers"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/sim_helpers"
+	"github.com/bitoro-network/chain/protocol/x/prices/keeper"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"

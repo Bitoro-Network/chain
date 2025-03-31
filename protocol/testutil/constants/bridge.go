@@ -2,7 +2,7 @@ package constants
 
 import (
 	sdkmath "cosmossdk.io/math"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 	ethcoretypes "github.com/ethereum/go-ethereum/core/types"

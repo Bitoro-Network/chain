@@ -3,7 +3,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/dtypes"
 )
 
 // BigIntToNumShares returns a NumShares given a big.Int.

@@ -2,11 +2,11 @@ package ante
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	sendingtypes "github.com/Bitoro-Network/chain/protocol/x/sending/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	sendingtypes "github.com/bitoro-network/chain/protocol/x/sending/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cometbft/cometbft/crypto/tmhash"
 	cometbftlog "github.com/cometbft/cometbft/libs/log"
 	sdk "github.com/cosmos/cosmos-sdk/types"

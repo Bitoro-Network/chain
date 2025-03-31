@@ -4,14 +4,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/keeper"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	"github.com/stretchr/testify/require"
 )
 

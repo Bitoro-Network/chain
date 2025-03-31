@@ -3,10 +3,10 @@ package server
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/liquidation/api"
-	"github.com/Bitoro-Network/chain/protocol/daemons/server/types"
-	liquidationtypes "github.com/Bitoro-Network/chain/protocol/daemons/server/types/liquidations"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/daemons/liquidation/api"
+	"github.com/bitoro-network/chain/protocol/daemons/server/types"
+	liquidationtypes "github.com/bitoro-network/chain/protocol/daemons/server/types/liquidations"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 )
 

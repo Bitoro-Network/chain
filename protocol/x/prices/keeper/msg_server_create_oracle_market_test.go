@@ -3,14 +3,14 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/slinky"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/slinky"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	pricestest "github.com/Bitoro-Network/chain/protocol/testutil/prices"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/keeper"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	pricestest "github.com/bitoro-network/chain/protocol/testutil/prices"
+	"github.com/bitoro-network/chain/protocol/x/prices/keeper"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	marketmapkeeper "github.com/skip-mev/slinky/x/marketmap/keeper"
 	marketmaptypes "github.com/skip-mev/slinky/x/marketmap/types"

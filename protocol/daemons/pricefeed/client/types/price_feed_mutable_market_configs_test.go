@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	prices_types "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	prices_types "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

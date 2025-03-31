@@ -3,10 +3,10 @@ package keeper
 import (
 	"math/big"
 
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	sendingtypes "github.com/Bitoro-Network/chain/protocol/x/sending/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	sendingtypes "github.com/bitoro-network/chain/protocol/x/sending/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

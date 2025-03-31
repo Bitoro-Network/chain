@@ -10,12 +10,12 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perplib "github.com/Bitoro-Network/chain/protocol/x/perpetuals/lib"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	perplib "github.com/bitoro-network/chain/protocol/x/perpetuals/lib"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

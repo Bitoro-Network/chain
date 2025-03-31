@@ -13,10 +13,10 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 
-	customante "github.com/Bitoro-Network/chain/protocol/app/ante"
-	appmsgs "github.com/Bitoro-Network/chain/protocol/app/msgs"
-	testante "github.com/Bitoro-Network/chain/protocol/testutil/ante"
-	testmsgs "github.com/Bitoro-Network/chain/protocol/testutil/msgs"
+	customante "github.com/bitoro-network/chain/protocol/app/ante"
+	appmsgs "github.com/bitoro-network/chain/protocol/app/msgs"
+	testante "github.com/bitoro-network/chain/protocol/testutil/ante"
+	testmsgs "github.com/bitoro-network/chain/protocol/testutil/msgs"
 
 	"github.com/stretchr/testify/require"
 )

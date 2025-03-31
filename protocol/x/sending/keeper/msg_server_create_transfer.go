@@ -4,9 +4,9 @@ import (
 	"context"
 
 	"cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	"github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/x/sending/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"

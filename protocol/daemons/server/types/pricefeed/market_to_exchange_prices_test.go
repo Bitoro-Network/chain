@@ -6,11 +6,11 @@ import (
 
 	"cosmossdk.io/log"
 
-	pricefeed_types "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
+	pricefeed_types "github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/api"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/api"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/stretchr/testify/require"
 )
 

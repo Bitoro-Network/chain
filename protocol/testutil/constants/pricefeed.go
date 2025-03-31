@@ -1,11 +1,11 @@
 package constants
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/api"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants"
-	daemonClientTypes "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/testutil/client"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/api"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants"
+	daemonClientTypes "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/testutil/client"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 var (

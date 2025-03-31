@@ -4,10 +4,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

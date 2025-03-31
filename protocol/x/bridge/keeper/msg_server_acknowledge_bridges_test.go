@@ -6,11 +6,11 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/x/bridge/keeper"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

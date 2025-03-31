@@ -3,7 +3,7 @@ package sim_helpers
 import (
 	"math"
 
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 )
 
 // All generated genesis parameters should be defined here.

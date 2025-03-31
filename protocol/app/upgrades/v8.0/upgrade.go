@@ -6,15 +6,15 @@ import (
 	"fmt"
 
 	upgradetypes "cosmossdk.io/x/upgrade/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
 	storetypes "cosmossdk.io/store/types"
-	accountpluskeeper "github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
-	accountplustypes "github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	accountpluskeeper "github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
+	accountplustypes "github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

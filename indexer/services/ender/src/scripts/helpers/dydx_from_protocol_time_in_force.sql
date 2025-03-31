@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION bitoro_from_protocol_time_in_force(tif jsonb) RETURNS text AS $$
 /**
-  Converts the TimeInForce field from an IndexerOrder proto (https://github.com/Bitoro-Network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/protocol/v1/clob.proto#L94)
+  Converts the TimeInForce field from an IndexerOrder proto (https://github.com/bitoro-network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/protocol/v1/clob.proto#L94)
   to a TimeInForce enum in postgres.
 
   Raise an exception if the input TimeInForce enum is not in the known enum values for TimeInForce.

@@ -11,12 +11,12 @@ import (
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	assetstypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	assetstypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 )
 
 func TestMsgAllocateToVault(t *testing.T) {

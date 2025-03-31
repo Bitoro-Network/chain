@@ -3,11 +3,11 @@ package process_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/msgs"
-	"github.com/Bitoro-Network/chain/protocol/app/process"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/app/msgs"
+	"github.com/bitoro-network/chain/protocol/app/process"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

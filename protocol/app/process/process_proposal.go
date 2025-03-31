@@ -3,10 +3,10 @@ package process
 import (
 	"time"
 
-	error_lib "github.com/Bitoro-Network/chain/protocol/lib/error"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
+	error_lib "github.com/bitoro-network/chain/protocol/lib/error"
+	"github.com/bitoro-network/chain/protocol/lib/log"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/telemetry"

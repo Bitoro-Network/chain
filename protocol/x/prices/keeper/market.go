@@ -6,12 +6,12 @@ import (
 	gogotypes "github.com/cosmos/gogoproto/types"
 
 	errorsmod "cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics"
-	indexerevents "github.com/Bitoro-Network/chain/protocol/indexer/events"
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/slinky"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics"
+	indexerevents "github.com/bitoro-network/chain/protocol/indexer/events"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/slinky"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

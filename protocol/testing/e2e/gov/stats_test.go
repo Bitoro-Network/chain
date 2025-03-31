@@ -4,10 +4,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	statstypes "github.com/Bitoro-Network/chain/protocol/x/stats/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	statstypes "github.com/bitoro-network/chain/protocol/x/stats/types"
 	"github.com/cometbft/cometbft/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"

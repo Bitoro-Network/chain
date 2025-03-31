@@ -1,7 +1,7 @@
 package msgs
 
 import (
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 	govbeta "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"

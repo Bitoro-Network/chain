@@ -4,19 +4,19 @@ import (
 	"context"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/server/types"
-	timelib "github.com/Bitoro-Network/chain/protocol/lib/time"
+	"github.com/bitoro-network/chain/protocol/daemons/server/types"
+	timelib "github.com/bitoro-network/chain/protocol/lib/time"
 
 	"cosmossdk.io/log"
-	appflags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	"github.com/Bitoro-Network/chain/protocol/daemons/flags"
-	"github.com/Bitoro-Network/chain/protocol/daemons/liquidation/api"
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
-	blocktimetypes "github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	appflags "github.com/bitoro-network/chain/protocol/app/flags"
+	"github.com/bitoro-network/chain/protocol/daemons/flags"
+	"github.com/bitoro-network/chain/protocol/daemons/liquidation/api"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
+	blocktimetypes "github.com/bitoro-network/chain/protocol/x/blocktime/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // Client implements a daemon service client that periodically calculates and reports liquidatable subaccounts

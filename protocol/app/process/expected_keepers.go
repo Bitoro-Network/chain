@@ -3,10 +3,10 @@ package process
 import (
 	"context"
 
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 )

@@ -3,8 +3,8 @@ package marketmap_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/marketmap"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/lib/marketmap"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	slinkytypes "github.com/skip-mev/slinky/pkg/types"
 	marketmaptypes "github.com/skip-mev/slinky/x/marketmap/types"
 	"github.com/stretchr/testify/require"

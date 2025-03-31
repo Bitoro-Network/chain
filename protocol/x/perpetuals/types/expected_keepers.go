@@ -1,8 +1,8 @@
 package types
 
 import (
-	epochstypes "github.com/Bitoro-Network/chain/protocol/x/epochs/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	epochstypes "github.com/bitoro-network/chain/protocol/x/epochs/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

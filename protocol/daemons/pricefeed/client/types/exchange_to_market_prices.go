@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 )
 

@@ -4,14 +4,14 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	v1 "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1"
-	v1types "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1/types"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	v1 "github.com/bitoro-network/chain/protocol/indexer/protocol/v1"
+	v1types "github.com/bitoro-network/chain/protocol/indexer/protocol/v1/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 	"github.com/stretchr/testify/require"
 )
 

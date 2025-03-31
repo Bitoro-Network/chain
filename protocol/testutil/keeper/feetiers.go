@@ -1,17 +1,17 @@
 package keeper
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/mocks"
 	dbm "github.com/cosmos/cosmos-db"
 
 	storetypes "cosmossdk.io/store/types"
-	affiliateskeeper "github.com/Bitoro-Network/chain/protocol/x/affiliates/keeper"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
-	"github.com/Bitoro-Network/chain/protocol/x/feetiers/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
-	statskeeper "github.com/Bitoro-Network/chain/protocol/x/stats/keeper"
-	vaultkeeper "github.com/Bitoro-Network/chain/protocol/x/vault/keeper"
+	affiliateskeeper "github.com/bitoro-network/chain/protocol/x/affiliates/keeper"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/x/feetiers/keeper"
+	"github.com/bitoro-network/chain/protocol/x/feetiers/types"
+	statskeeper "github.com/bitoro-network/chain/protocol/x/stats/keeper"
+	vaultkeeper "github.com/bitoro-network/chain/protocol/x/vault/keeper"
 	"github.com/cosmos/cosmos-sdk/codec"
 )
 

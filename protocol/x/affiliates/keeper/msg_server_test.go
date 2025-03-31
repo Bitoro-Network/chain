@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	constants "github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/affiliates/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/affiliates/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	constants "github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/affiliates/keeper"
+	"github.com/bitoro-network/chain/protocol/x/affiliates/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

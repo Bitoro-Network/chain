@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/util"
+	"github.com/bitoro-network/chain/protocol/lib"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/util"
 	ibctransfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
 	"github.com/stretchr/testify/require"

@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	"github.com/stretchr/testify/require"
 )
 

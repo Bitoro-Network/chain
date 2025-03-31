@@ -3,12 +3,12 @@ package keeper
 import (
 	"fmt"
 
-	streamingtypes "github.com/Bitoro-Network/chain/protocol/streaming/types"
+	streamingtypes "github.com/bitoro-network/chain/protocol/streaming/types"
 
 	"cosmossdk.io/log"
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

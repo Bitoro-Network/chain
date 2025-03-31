@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/big"
 
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // Helper function to compute the delta long for a single settled update on a perpetual.

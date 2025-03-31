@@ -6,7 +6,7 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 )
 
 const (

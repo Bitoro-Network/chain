@@ -3,12 +3,12 @@ package server_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/liquidation/api"
-	liquidationtypes "github.com/Bitoro-Network/chain/protocol/daemons/server/types/liquidations"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/grpc"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/daemons/liquidation/api"
+	liquidationtypes "github.com/bitoro-network/chain/protocol/daemons/server/types/liquidations"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/grpc"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

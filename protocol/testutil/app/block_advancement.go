@@ -7,9 +7,9 @@ import (
 	abcitypes "github.com/cometbft/cometbft/abci/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
-	testtx "github.com/Bitoro-Network/chain/protocol/testutil/tx"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/app"
+	testtx "github.com/bitoro-network/chain/protocol/testutil/tx"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 )
 

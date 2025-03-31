@@ -3,12 +3,12 @@ package v_8_0_test
 import (
 	"testing"
 
-	v_8_0 "github.com/Bitoro-Network/chain/protocol/app/upgrades/v8.0"
+	v_8_0 "github.com/bitoro-network/chain/protocol/app/upgrades/v8.0"
 	"github.com/cometbft/cometbft/types"
 
 	"cosmossdk.io/store/prefix"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	accountplustypes "github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	accountplustypes "github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 )

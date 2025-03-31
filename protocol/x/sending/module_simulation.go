@@ -1,8 +1,8 @@
 package sending
 
 import (
-	sendingsimulation "github.com/Bitoro-Network/chain/protocol/x/sending/simulation"
-	"github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	sendingsimulation "github.com/bitoro-network/chain/protocol/x/sending/simulation"
+	"github.com/bitoro-network/chain/protocol/x/sending/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 )

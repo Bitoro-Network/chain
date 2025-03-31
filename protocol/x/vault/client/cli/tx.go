@@ -8,9 +8,9 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/cobra"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"

@@ -6,8 +6,8 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/sending/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

@@ -3,7 +3,7 @@ package metrics_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics"
 	"github.com/stretchr/testify/require"
 )
 

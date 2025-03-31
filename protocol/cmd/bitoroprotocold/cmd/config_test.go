@@ -3,7 +3,7 @@ package cmd_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/cmd/bitoroprotocold/cmd"
+	"github.com/bitoro-network/chain/protocol/cmd/bitoroprotocold/cmd"
 	"github.com/stretchr/testify/require"
 )
 

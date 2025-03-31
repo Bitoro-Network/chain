@@ -2,8 +2,8 @@ package v_7_0
 
 import (
 	store "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/app/upgrades"
-	affiliatetypes "github.com/Bitoro-Network/chain/protocol/x/affiliates/types"
+	"github.com/bitoro-network/chain/protocol/app/upgrades"
+	affiliatetypes "github.com/bitoro-network/chain/protocol/x/affiliates/types"
 )
 
 const (

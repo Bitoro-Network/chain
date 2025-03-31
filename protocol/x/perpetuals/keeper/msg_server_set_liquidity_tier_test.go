@@ -3,13 +3,13 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	lttest "github.com/Bitoro-Network/chain/protocol/testutil/liquidity_tier"
-	perpkeeper "github.com/Bitoro-Network/chain/protocol/x/perpetuals/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	lttest "github.com/bitoro-network/chain/protocol/testutil/liquidity_tier"
+	perpkeeper "github.com/bitoro-network/chain/protocol/x/perpetuals/keeper"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 	"github.com/stretchr/testify/require"
 )
 

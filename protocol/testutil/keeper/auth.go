@@ -2,10 +2,10 @@ package keeper
 
 import (
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	perpetualstypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
+	perpetualstypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/cosmos/cosmos-sdk/codec"
 	addresscodec "github.com/cosmos/cosmos-sdk/codec/address"

@@ -6,8 +6,8 @@ import (
 
 	"cosmossdk.io/errors"
 	sdkmath "cosmossdk.io/math"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	assets "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	assets "github.com/bitoro-network/chain/protocol/x/assets/types"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
 
@@ -16,10 +16,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 
-	"github.com/Bitoro-Network/chain/protocol/app/ante"
-	testante "github.com/Bitoro-Network/chain/protocol/testutil/ante"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/app/ante"
+	testante "github.com/bitoro-network/chain/protocol/testutil/ante"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 
 	"github.com/stretchr/testify/require"
 )

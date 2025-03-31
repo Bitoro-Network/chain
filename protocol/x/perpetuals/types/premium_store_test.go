@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
-	perptest "github.com/Bitoro-Network/chain/protocol/testutil/perpetuals"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	perptest "github.com/bitoro-network/chain/protocol/testutil/perpetuals"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 	"github.com/stretchr/testify/require"
 )
 

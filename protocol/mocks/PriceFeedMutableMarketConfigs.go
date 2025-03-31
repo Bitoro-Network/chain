@@ -3,8 +3,8 @@
 package mocks
 
 import (
-	types "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	types "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	mock "github.com/stretchr/testify/mock"
 )
 

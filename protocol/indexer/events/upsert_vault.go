@@ -1,8 +1,8 @@
 package events
 
 import (
-	v1 "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	v1 "github.com/bitoro-network/chain/protocol/indexer/protocol/v1"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 )
 
 // NewUpsertVaultEvent creates a UpsertVaultEventV1

@@ -4,8 +4,8 @@
 package mocks
 
 import (
-	lib "github.com/Bitoro-Network/chain/protocol/lib"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	lib "github.com/bitoro-network/chain/protocol/lib"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 
 	log "cosmossdk.io/log"
 

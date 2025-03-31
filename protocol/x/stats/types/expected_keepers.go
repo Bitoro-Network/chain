@@ -3,7 +3,7 @@ package types
 import (
 	"context"
 
-	epochtypes "github.com/Bitoro-Network/chain/protocol/x/epochs/types"
+	epochtypes "github.com/bitoro-network/chain/protocol/x/epochs/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 )

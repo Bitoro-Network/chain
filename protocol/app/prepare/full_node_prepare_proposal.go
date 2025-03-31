@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 )
 
 // FullNodePrepareProposalHandler returns an EmptyResponse and logs an error

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
 )
 
 type FixedPriceTicker struct {

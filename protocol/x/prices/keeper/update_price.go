@@ -5,14 +5,14 @@ import (
 	"sort"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants"
 
 	gometrics "github.com/hashicorp/go-metrics"
 
-	pricefeedmetrics "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	pricefeedmetrics "github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

@@ -1,6 +1,6 @@
 package constants
 
-import "github.com/Bitoro-Network/chain/protocol/testutil/encoding"
+import "github.com/bitoro-network/chain/protocol/testutil/encoding"
 
 var (
 	TestEncodingCfg = encoding.GetTestEncodingCfg()

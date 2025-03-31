@@ -3,12 +3,12 @@ package types
 import (
 	"math/big"
 
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perpetualtypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perpetualtypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	marketmaptypes "github.com/skip-mev/slinky/x/marketmap/types"
 )

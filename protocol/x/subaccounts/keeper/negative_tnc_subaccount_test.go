@@ -3,12 +3,12 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/testutil/tracer"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/testutil/tracer"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/keeper"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

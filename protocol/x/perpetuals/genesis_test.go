@@ -5,15 +5,15 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/testutil/nullify"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	"github.com/Bitoro-Network/chain/protocol/x/prices"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/testutil/nullify"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/keeper"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/x/prices"
 	"github.com/stretchr/testify/require"
 )
 

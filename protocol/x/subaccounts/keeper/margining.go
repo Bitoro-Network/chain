@@ -3,12 +3,12 @@ package keeper
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	perplib "github.com/Bitoro-Network/chain/protocol/x/perpetuals/lib"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	salib "github.com/Bitoro-Network/chain/protocol/x/subaccounts/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	perplib "github.com/bitoro-network/chain/protocol/x/perpetuals/lib"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	salib "github.com/bitoro-network/chain/protocol/x/subaccounts/lib"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // GetMarginedUpdates calculates the quote balance updates needed

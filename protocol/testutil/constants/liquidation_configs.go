@@ -3,8 +3,8 @@ package constants
 import (
 	"math"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 )
 
 var (

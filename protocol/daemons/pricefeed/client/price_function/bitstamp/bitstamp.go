@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
 )
 
 // BitstampTicker is our representation of ticker information returned in Bitstamp response.

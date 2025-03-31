@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/lib/abci"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/lib/abci"
+	"github.com/bitoro-network/chain/protocol/mocks"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"

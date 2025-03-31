@@ -5,10 +5,10 @@ import (
 
 	"cosmossdk.io/log"
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	affiliateskeeper "github.com/Bitoro-Network/chain/protocol/x/affiliates/keeper"
-	feetierskeeper "github.com/Bitoro-Network/chain/protocol/x/feetiers/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	affiliateskeeper "github.com/bitoro-network/chain/protocol/x/affiliates/keeper"
+	feetierskeeper "github.com/bitoro-network/chain/protocol/x/feetiers/keeper"
+	"github.com/bitoro-network/chain/protocol/x/revshare/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

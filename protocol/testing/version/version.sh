@@ -5,4 +5,4 @@ PREUPGRADE_VERSION_FULL_NAME=$(<VERSION_FULL_NAME_PREUPGRADE)
 
 # Define the mapping from version to amd64 URL
 declare -A version_to_url
-version_to_url["$PREUPGRADE_VERSION"]="https://github.com/Bitoro-Network/chain/releases/download/protocol%2F$PREUPGRADE_VERSION_FULL_NAME/bitoroprotocold-$PREUPGRADE_VERSION_FULL_NAME-linux-amd64.tar.gz"
+version_to_url["$PREUPGRADE_VERSION"]="https://github.com/bitoro-network/chain/releases/download/protocol%2F$PREUPGRADE_VERSION_FULL_NAME/bitoroprotocold-$PREUPGRADE_VERSION_FULL_NAME-linux-amd64.tar.gz"

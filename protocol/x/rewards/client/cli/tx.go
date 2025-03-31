@@ -6,7 +6,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/Bitoro-Network/chain/protocol/x/rewards/types"
+	"github.com/bitoro-network/chain/protocol/x/rewards/types"
 	"github.com/cosmos/cosmos-sdk/client"
 )
 

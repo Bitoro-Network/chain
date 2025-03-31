@@ -4,7 +4,7 @@
   "access": "public",
   "description": "Protos for Bitoro protocol",
   "author": "Bitoro Trading Inc.",
-  "homepage": "https://github.com/Bitoro-Network/chain",
+  "homepage": "https://github.com/bitoro-network/chain",
   "license": "AGPL-3.0",
   "main": "main/index.js",
   "module": "module/index.js",
@@ -28,11 +28,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Bitoro-Network/chain"
+    "url": "https://github.com/bitoro-network/chain"
   },
   "keywords": [],
   "bugs": {
-    "url": "https://github.com/Bitoro-Network/chain/issues"
+    "url": "https://github.com/bitoro-network/chain/issues"
   },
   "devDependencies": {
     "@cosmjs/stargate": "^0.32.1",

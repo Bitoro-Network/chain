@@ -5,14 +5,14 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/margin"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	blocktimetypes "github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
-	perpetualsmoduletypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	revsharetypes "github.com/Bitoro-Network/chain/protocol/x/revshare/types"
-	stattypes "github.com/Bitoro-Network/chain/protocol/x/stats/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib/margin"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	blocktimetypes "github.com/bitoro-network/chain/protocol/x/blocktime/types"
+	perpetualsmoduletypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	revsharetypes "github.com/bitoro-network/chain/protocol/x/revshare/types"
+	stattypes "github.com/bitoro-network/chain/protocol/x/stats/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

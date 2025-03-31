@@ -3,16 +3,16 @@ package keeper
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/authenticator"
-	keeper "github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/authenticator"
+	keeper "github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

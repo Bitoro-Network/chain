@@ -7,8 +7,8 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/store/prefix"
 	storetypes "cosmossdk.io/store/types"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

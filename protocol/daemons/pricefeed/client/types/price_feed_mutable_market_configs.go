@@ -7,8 +7,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	gometrics "github.com/hashicorp/go-metrics"
 )

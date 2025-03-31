@@ -3,7 +3,7 @@ package perpetuals_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/perpetuals"
+	"github.com/bitoro-network/chain/protocol/testutil/perpetuals"
 	"github.com/stretchr/testify/require"
 )
 

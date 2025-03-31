@@ -5,10 +5,10 @@ import (
 	slinkytypes "github.com/skip-mev/slinky/pkg/types"
 	marketmapmoduletypes "github.com/skip-mev/slinky/x/marketmap/types"
 
-	"github.com/Bitoro-Network/chain/protocol/app/upgrades"
-	accountplustypes "github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
-	listingtypes "github.com/Bitoro-Network/chain/protocol/x/listing/types"
-	revsharetypes "github.com/Bitoro-Network/chain/protocol/x/revshare/types"
+	"github.com/bitoro-network/chain/protocol/app/upgrades"
+	accountplustypes "github.com/bitoro-network/chain/protocol/x/accountplus/types"
+	listingtypes "github.com/bitoro-network/chain/protocol/x/listing/types"
+	revsharetypes "github.com/bitoro-network/chain/protocol/x/revshare/types"
 )
 
 const (

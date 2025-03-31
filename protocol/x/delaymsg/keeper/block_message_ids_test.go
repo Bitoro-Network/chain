@@ -3,8 +3,8 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/keeper"
 	"github.com/stretchr/testify/require"
 )
 

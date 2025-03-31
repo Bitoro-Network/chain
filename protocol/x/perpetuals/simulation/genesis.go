@@ -8,16 +8,16 @@ import (
 	"math/big"
 	"math/rand"
 
-	v4module "github.com/Bitoro-Network/chain/protocol/app/module"
+	v4module "github.com/bitoro-network/chain/protocol/app/module"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/sim_helpers"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/sim_helpers"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 )
 

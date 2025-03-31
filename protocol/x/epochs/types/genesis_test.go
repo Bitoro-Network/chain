@@ -5,8 +5,8 @@ import (
 	"sort"
 	"testing"
 
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/types"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/x/epochs/types"
 	"github.com/stretchr/testify/require"
 )
 

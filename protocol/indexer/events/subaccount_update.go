@@ -3,11 +3,11 @@ package events
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	v1 "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	salib "github.com/Bitoro-Network/chain/protocol/x/subaccounts/lib"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	v1 "github.com/bitoro-network/chain/protocol/indexer/protocol/v1"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	salib "github.com/bitoro-network/chain/protocol/x/subaccounts/lib"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // NewSubaccountUpdateEvent creates a SubaccountUpdateEvent representing a subaccount update

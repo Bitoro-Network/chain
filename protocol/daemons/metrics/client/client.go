@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	"github.com/cosmos/cosmos-sdk/version"
 	gometrics "github.com/hashicorp/go-metrics"

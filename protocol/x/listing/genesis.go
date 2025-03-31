@@ -1,8 +1,8 @@
 package listing
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/listing/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/listing/types"
+	"github.com/bitoro-network/chain/protocol/x/listing/keeper"
+	"github.com/bitoro-network/chain/protocol/x/listing/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

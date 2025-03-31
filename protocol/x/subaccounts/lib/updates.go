@@ -4,13 +4,13 @@ import (
 	"math/big"
 	"sort"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/margin"
-	assetslib "github.com/Bitoro-Network/chain/protocol/x/assets/lib"
-	perplib "github.com/Bitoro-Network/chain/protocol/x/perpetuals/lib"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/margin"
+	assetslib "github.com/bitoro-network/chain/protocol/x/assets/lib"
+	perplib "github.com/bitoro-network/chain/protocol/x/perpetuals/lib"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // GetSettledSubaccountWithPerpetuals returns 1. a new settled subaccount given an unsettled subaccount,

@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 )
 
 // MutableExchangeMarketConfig stores all mutable market configuration per exchange.

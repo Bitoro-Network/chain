@@ -3,7 +3,7 @@ package types
 import (
 	"net/http"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
 )
 
 // ExchangeQueryDetails represents the information needed to query a specific exchange.

@@ -5,13 +5,13 @@ import (
 	"encoding/binary"
 
 	"cosmossdk.io/store/prefix"
-	"github.com/Bitoro-Network/chain/protocol/indexer/off_chain_updates"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/indexer/off_chain_updates"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // OrderIdFillState is a struct that represents an order fill amount in state.

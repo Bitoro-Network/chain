@@ -3,7 +3,7 @@ name = "chain-proto"
 version = "0.2.0"
 edition = "2021"
 description = "Compiled Bitoro protobuf files"
-repository = "https://github.com/Bitoro-Network/chain/tree/main/chain-proto-rs"
+repository = "https://github.com/bitoro-network/chain/tree/main/chain-proto-rs"
 license = "LicenseRef-Bitoro-Custom"
 
 [lib]

@@ -8,7 +8,7 @@ import (
 	_ "github.com/cosmos/cosmos-proto"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
-	github_com_bitoroprotocol_chain_protocol_dtypes "github.com/Bitoro-Network/chain/protocol/dtypes"
+	github_com_bitoroprotocol_chain_protocol_dtypes "github.com/bitoro-network/chain/protocol/dtypes"
 	io "io"
 	math "math"
 	math_bits "math/bits"
@@ -29,7 +29,7 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 // entitled to.
 type RewardShare struct {
 	Address string                                                           `protobuf:"bytes,1,opt,name=address,proto3" json:"address,omitempty"`
-	Weight  github_com_bitoroprotocol_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,2,opt,name=weight,proto3,customtype=github.com/Bitoro-Network/chain/protocol/dtypes.SerializableInt" json:"weight"`
+	Weight  github_com_bitoroprotocol_chain_protocol_dtypes.SerializableInt `protobuf:"bytes,2,opt,name=weight,proto3,customtype=github.com/bitoro-network/chain/protocol/dtypes.SerializableInt" json:"weight"`
 }
 
 func (m *RewardShare) Reset()         { *m = RewardShare{} }

@@ -4,12 +4,12 @@ import (
 	"math/big"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 	"github.com/cometbft/cometbft/types"
 	"github.com/stretchr/testify/require"
 )

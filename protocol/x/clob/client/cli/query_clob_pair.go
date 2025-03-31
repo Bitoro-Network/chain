@@ -3,7 +3,7 @@ package cli
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cast"

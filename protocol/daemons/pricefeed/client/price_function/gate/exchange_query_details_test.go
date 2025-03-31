@@ -3,7 +3,7 @@ package gate_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/gate"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/gate"
 	"github.com/stretchr/testify/require"
 )
 

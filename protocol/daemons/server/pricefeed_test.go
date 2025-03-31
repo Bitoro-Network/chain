@@ -7,15 +7,15 @@ import (
 	"testing"
 
 	errorsmod "cosmossdk.io/errors"
-	pricefeed_types "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
+	pricefeed_types "github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
 
-	pricefeedconstants "github.com/Bitoro-Network/chain/protocol/daemons/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/api"
-	"github.com/Bitoro-Network/chain/protocol/daemons/server"
-	pricefeedserver_types "github.com/Bitoro-Network/chain/protocol/daemons/server/types/pricefeed"
-	"github.com/Bitoro-Network/chain/protocol/daemons/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	pricefeedconstants "github.com/bitoro-network/chain/protocol/daemons/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/api"
+	"github.com/bitoro-network/chain/protocol/daemons/server"
+	pricefeedserver_types "github.com/bitoro-network/chain/protocol/daemons/server/types/pricefeed"
+	"github.com/bitoro-network/chain/protocol/daemons/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	"github.com/stretchr/testify/require"
 )
 

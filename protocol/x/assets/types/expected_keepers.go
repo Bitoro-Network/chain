@@ -1,7 +1,7 @@
 package types
 
 import (
-	prices "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	prices "github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

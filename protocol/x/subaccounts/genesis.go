@@ -1,10 +1,10 @@
 package subaccounts
 
 import (
-	indexerevents "github.com/Bitoro-Network/chain/protocol/indexer/events"
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	indexerevents "github.com/bitoro-network/chain/protocol/indexer/events"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/keeper"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

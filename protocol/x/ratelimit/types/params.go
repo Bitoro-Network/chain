@@ -6,9 +6,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
 )
 
 // BigBaselineMinimum1Hr defines the minimum baseline USDC for the 1-hour rate-limit.

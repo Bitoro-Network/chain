@@ -3,7 +3,7 @@ package cli
 import (
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 )
 
 // GetVaultTypeFromString returns a vault type from a string.

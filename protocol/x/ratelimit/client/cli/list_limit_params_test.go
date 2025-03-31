@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/network"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/testutil/network"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 	tmcli "github.com/cometbft/cometbft/libs/cli"
 	"github.com/cosmos/cosmos-sdk/client"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"

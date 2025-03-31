@@ -3,9 +3,9 @@ package vest
 import (
 	"math/rand"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	vestsimulation "github.com/Bitoro-Network/chain/protocol/x/vest/simulation"
-	"github.com/Bitoro-Network/chain/protocol/x/vest/types"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	vestsimulation "github.com/bitoro-network/chain/protocol/x/vest/simulation"
+	"github.com/bitoro-network/chain/protocol/x/vest/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

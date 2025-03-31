@@ -11,9 +11,9 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	mmtypes "github.com/skip-mev/slinky/x/marketmap/types"
 
-	slinkylibs "github.com/Bitoro-Network/chain/protocol/lib/slinky"
-	perpetualstypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	slinkylibs "github.com/bitoro-network/chain/protocol/lib/slinky"
+	perpetualstypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 var ErrRestrictedMarketUpdates = errors.New("cannot call MsgUpdateMarkets or MsgUpsertMarkets " +

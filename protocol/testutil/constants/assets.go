@@ -4,8 +4,8 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	asstypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	asstypes "github.com/bitoro-network/chain/protocol/x/assets/types"
 )
 
 const (

@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/app/basic_manager"
-	"github.com/Bitoro-Network/chain/protocol/app/module"
+	"github.com/bitoro-network/chain/protocol/app/basic_manager"
+	"github.com/bitoro-network/chain/protocol/app/module"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"

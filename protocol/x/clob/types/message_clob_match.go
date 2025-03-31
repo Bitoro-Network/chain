@@ -1,6 +1,6 @@
 package types
 
-import satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+import satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 
 // NewClobMatchFromMatchOrders creates a `ClobMatch` from the provided `MatchOrders`.
 func NewClobMatchFromMatchOrders(

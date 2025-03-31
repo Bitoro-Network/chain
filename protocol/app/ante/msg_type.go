@@ -2,8 +2,8 @@ package ante
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	libante "github.com/Bitoro-Network/chain/protocol/lib/ante"
+	"github.com/bitoro-network/chain/protocol/lib"
+	libante "github.com/bitoro-network/chain/protocol/lib/ante"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )

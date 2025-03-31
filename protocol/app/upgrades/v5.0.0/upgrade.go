@@ -9,14 +9,14 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	consensustypes "github.com/cosmos/cosmos-sdk/x/consensus/types"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 
 	upgradetypes "cosmossdk.io/x/upgrade/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	consensusparamkeeper "github.com/cosmos/cosmos-sdk/x/consensus/keeper"
 )

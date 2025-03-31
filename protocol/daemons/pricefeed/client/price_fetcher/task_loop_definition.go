@@ -1,6 +1,6 @@
 package price_fetcher
 
-import "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+import "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 
 // taskLoopDefinition defines the parameters for the price fetcher's task loop:
 // Which markets to query, and parameters for how to query them and process query results.

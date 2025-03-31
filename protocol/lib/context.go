@@ -6,7 +6,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/lib/log"
 	"github.com/cometbft/cometbft/crypto/tmhash"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

@@ -6,8 +6,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	blocktime "github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	blocktime "github.com/bitoro-network/chain/protocol/x/blocktime/types"
 	abcitypes "github.com/cometbft/cometbft/abci/types"
 	"github.com/stretchr/testify/require"
 )

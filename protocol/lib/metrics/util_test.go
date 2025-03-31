@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	big_testutil "github.com/Bitoro-Network/chain/protocol/testutil/big"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	big_testutil "github.com/bitoro-network/chain/protocol/testutil/big"
 	gometrics "github.com/hashicorp/go-metrics"
 
 	"github.com/stretchr/testify/require"

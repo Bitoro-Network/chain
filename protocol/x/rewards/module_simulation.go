@@ -3,9 +3,9 @@ package rewards
 import (
 	"math/rand"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	rewardssimulation "github.com/Bitoro-Network/chain/protocol/x/rewards/simulation"
-	"github.com/Bitoro-Network/chain/protocol/x/rewards/types"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	rewardssimulation "github.com/bitoro-network/chain/protocol/x/rewards/simulation"
+	"github.com/bitoro-network/chain/protocol/x/rewards/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

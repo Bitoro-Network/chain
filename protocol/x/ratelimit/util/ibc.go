@@ -10,7 +10,7 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	ibctransfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"

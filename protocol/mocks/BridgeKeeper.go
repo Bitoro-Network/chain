@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
 	mock "github.com/stretchr/testify/mock"
 
 	types "github.com/cosmos/cosmos-sdk/types"

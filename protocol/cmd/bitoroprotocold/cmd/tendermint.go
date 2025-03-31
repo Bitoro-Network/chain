@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/Bitoro-Network/chain/protocol/command/genprivkey"
+	"github.com/bitoro-network/chain/protocol/command/genprivkey"
 	debug "github.com/cometbft/cometbft/cmd/cometbft/commands/debug"
 	"github.com/spf13/cobra"
 )

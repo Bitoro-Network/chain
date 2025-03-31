@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	assetslib "github.com/Bitoro-Network/chain/protocol/x/assets/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	assetslib "github.com/bitoro-network/chain/protocol/x/assets/lib"
+	"github.com/bitoro-network/chain/protocol/x/assets/types"
 	"github.com/stretchr/testify/require"
 )
 

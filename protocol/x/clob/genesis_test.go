@@ -5,21 +5,21 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	indexerevents "github.com/Bitoro-Network/chain/protocol/indexer/events"
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	clobtest "github.com/Bitoro-Network/chain/protocol/testutil/clob"
+	indexerevents "github.com/bitoro-network/chain/protocol/indexer/events"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	clobtest "github.com/bitoro-network/chain/protocol/testutil/clob"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/dtypes"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/clob"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/memclob"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals"
-	"github.com/Bitoro-Network/chain/protocol/x/prices"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/x/clob"
+	"github.com/bitoro-network/chain/protocol/x/clob/memclob"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals"
+	"github.com/bitoro-network/chain/protocol/x/prices"
 	"github.com/stretchr/testify/require"
 )
 

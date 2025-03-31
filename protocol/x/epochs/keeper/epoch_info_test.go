@@ -8,10 +8,10 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/testutil/nullify"
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/types"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/testutil/nullify"
+	"github.com/bitoro-network/chain/protocol/x/epochs/keeper"
+	"github.com/bitoro-network/chain/protocol/x/epochs/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

@@ -2,7 +2,7 @@ package indexer_manager
 
 import (
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/indexer/msgsender"
+	"github.com/bitoro-network/chain/protocol/indexer/msgsender"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"time"
 
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	blocktimetypes "github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	blocktimetypes "github.com/bitoro-network/chain/protocol/x/blocktime/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

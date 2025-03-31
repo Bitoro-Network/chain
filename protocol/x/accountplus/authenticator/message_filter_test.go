@@ -4,15 +4,15 @@ import (
 	"os"
 	"testing"
 
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/authenticator"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/authenticator"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/lib"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 
 	"github.com/stretchr/testify/suite"
 )

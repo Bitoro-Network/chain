@@ -1,7 +1,7 @@
 package msgs
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 )
 
 var (

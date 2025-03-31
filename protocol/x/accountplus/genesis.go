@@ -1,8 +1,8 @@
 package accountplus
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

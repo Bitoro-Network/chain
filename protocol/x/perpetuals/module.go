@@ -7,14 +7,14 @@ import (
 	"time"
 
 	"cosmossdk.io/core/appmodule"
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/keeper"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"

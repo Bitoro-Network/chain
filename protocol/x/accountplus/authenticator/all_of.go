@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 
 	errorsmod "cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 )

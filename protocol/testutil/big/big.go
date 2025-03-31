@@ -4,7 +4,7 @@ package big
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 )
 
 // MustFirst is used for returning the first value of the SetString

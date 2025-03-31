@@ -3,16 +3,16 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 
 	"github.com/cosmos/cosmos-sdk/types/query"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/testutil/nullify"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/testutil/nullify"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 func TestMarketPriceQuerySingle(t *testing.T) {

@@ -4,14 +4,14 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	sdktest "github.com/Bitoro-Network/chain/protocol/testutil/sdk"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	sdktest "github.com/bitoro-network/chain/protocol/testutil/sdk"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 func TestGetOrderFilledAmount(t *testing.T) {

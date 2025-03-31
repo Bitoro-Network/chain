@@ -3,11 +3,11 @@ package memclob
 import (
 	"testing"
 
-	clobtest "github.com/Bitoro-Network/chain/protocol/testutil/clob"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	sdktest "github.com/Bitoro-Network/chain/protocol/testutil/sdk"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	clobtest "github.com/bitoro-network/chain/protocol/testutil/clob"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	sdktest "github.com/bitoro-network/chain/protocol/testutil/sdk"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 func TestPlacePerpetualLiquidation_Success(t *testing.T) {

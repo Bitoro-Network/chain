@@ -7,15 +7,15 @@ import (
 	"github.com/cometbft/cometbft/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/indexer"
-	"github.com/Bitoro-Network/chain/protocol/indexer/msgsender"
-	"github.com/Bitoro-Network/chain/protocol/indexer/off_chain_updates"
-	ocutypes "github.com/Bitoro-Network/chain/protocol/indexer/off_chain_updates/types"
-	indexersharedtypes "github.com/Bitoro-Network/chain/protocol/indexer/shared/types"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/indexer"
+	"github.com/bitoro-network/chain/protocol/indexer/msgsender"
+	"github.com/bitoro-network/chain/protocol/indexer/off_chain_updates"
+	ocutypes "github.com/bitoro-network/chain/protocol/indexer/off_chain_updates/types"
+	indexersharedtypes "github.com/bitoro-network/chain/protocol/indexer/shared/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // These tests are the same as the e2e tests for single order cancellations.

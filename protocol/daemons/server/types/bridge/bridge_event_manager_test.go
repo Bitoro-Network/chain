@@ -3,10 +3,10 @@ package types_test
 import (
 	"testing"
 
-	bdtypes "github.com/Bitoro-Network/chain/protocol/daemons/server/types/bridge"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	bdtypes "github.com/bitoro-network/chain/protocol/daemons/server/types/bridge"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,9 +3,9 @@ package keeper_test
 import (
 	"testing"
 
-	testApp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	testApp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/stretchr/testify/require"
 )
 

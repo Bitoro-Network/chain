@@ -5,8 +5,8 @@ package mocks
 import (
 	context "context"
 
-	flags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	daemonstypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
+	flags "github.com/bitoro-network/chain/protocol/app/flags"
+	daemonstypes "github.com/bitoro-network/chain/protocol/daemons/types"
 
 	mock "github.com/stretchr/testify/mock"
 

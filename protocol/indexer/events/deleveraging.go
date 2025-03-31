@@ -1,8 +1,8 @@
 package events
 
 import (
-	v1 "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	v1 "github.com/bitoro-network/chain/protocol/indexer/protocol/v1"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // NewDeleveragingEvent creates a DeleveragingEvent representing a deleveraging

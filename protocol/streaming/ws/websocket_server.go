@@ -10,8 +10,8 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/streaming/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/streaming/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/gorilla/websocket"
 )

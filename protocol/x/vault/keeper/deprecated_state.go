@@ -5,7 +5,7 @@ import (
 
 	"cosmossdk.io/store/prefix"
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

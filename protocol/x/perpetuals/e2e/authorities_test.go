@@ -3,8 +3,8 @@ package perpetuals_e2e_test
 import (
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	"github.com/cometbft/cometbft/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"

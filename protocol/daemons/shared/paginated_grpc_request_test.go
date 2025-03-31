@@ -5,9 +5,9 @@ import (
 
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/shared"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/daemons/shared"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 	"github.com/stretchr/testify/require"

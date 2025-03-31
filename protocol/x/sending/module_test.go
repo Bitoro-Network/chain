@@ -8,12 +8,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/module"
+	"github.com/bitoro-network/chain/protocol/app/module"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/sending"
-	sending_keeper "github.com/Bitoro-Network/chain/protocol/x/sending/keeper"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/x/sending"
+	sending_keeper "github.com/bitoro-network/chain/protocol/x/sending/keeper"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/codec/types"

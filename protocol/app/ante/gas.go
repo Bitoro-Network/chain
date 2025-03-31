@@ -1,9 +1,9 @@
 package ante
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/app/ante/types"
-	libante "github.com/Bitoro-Network/chain/protocol/lib/ante"
-	clobante "github.com/Bitoro-Network/chain/protocol/x/clob/ante"
+	"github.com/bitoro-network/chain/protocol/app/ante/types"
+	libante "github.com/bitoro-network/chain/protocol/lib/ante"
+	clobante "github.com/bitoro-network/chain/protocol/x/clob/ante"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

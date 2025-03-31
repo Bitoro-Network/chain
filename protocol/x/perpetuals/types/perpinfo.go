@@ -2,7 +2,7 @@ package types
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 // PerpInfo contains all information needed to calculate margin requirements for a perpetual.

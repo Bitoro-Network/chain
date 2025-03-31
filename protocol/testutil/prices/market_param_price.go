@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 type MarketParamPriceModifierOption func(cp *pricestypes.MarketParamPrice)

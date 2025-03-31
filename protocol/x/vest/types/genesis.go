@@ -3,8 +3,8 @@ package types
 import (
 	time "time"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	rewardstypes "github.com/Bitoro-Network/chain/protocol/x/rewards/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	rewardstypes "github.com/bitoro-network/chain/protocol/x/rewards/types"
 )
 
 var (

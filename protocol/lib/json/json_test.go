@@ -3,7 +3,7 @@ package json_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/json"
+	"github.com/bitoro-network/chain/protocol/lib/json"
 )
 
 func TestIsValidJSON(t *testing.T) {

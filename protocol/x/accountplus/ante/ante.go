@@ -14,10 +14,10 @@ import (
 
 	txsigning "cosmossdk.io/x/tx/signing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/lib"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 )
 
 // AuthenticatorDecorator is responsible for processing authentication logic

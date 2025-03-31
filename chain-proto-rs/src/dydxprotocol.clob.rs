@@ -2682,7 +2682,7 @@ impl ::prost::Name for StreamTakerOrder {
 pub struct StreamTakerOrderStatus {
     /// The state of the taker order after attempting to match it against the
     /// orderbook. Possible enum values can be found here:
-    /// <https://github.com/Bitoro-Network/chain/blob/main/protocol/x/clob/types/orderbook.go#L105>
+    /// <https://github.com/bitoro-network/chain/blob/main/protocol/x/clob/types/orderbook.go#L105>
     #[prost(uint32, tag = "1")]
     pub order_status: u32,
     /// The amount of remaining (non-matched) base quantums of this taker order.

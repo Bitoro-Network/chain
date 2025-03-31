@@ -8,7 +8,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/client"
 	// "github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/types"
+	"github.com/bitoro-network/chain/protocol/x/epochs/types"
 )
 
 var (

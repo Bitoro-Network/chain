@@ -2,8 +2,8 @@ package v_3_0_0
 
 import (
 	store "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/app/upgrades"
-	ratelimittypes "github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/app/upgrades"
+	ratelimittypes "github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 	icahosttypes "github.com/cosmos/ibc-go/v8/modules/apps/27-interchain-accounts/host/types"
 )
 

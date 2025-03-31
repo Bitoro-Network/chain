@@ -3,15 +3,15 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	perptest "github.com/Bitoro-Network/chain/protocol/testutil/perpetuals"
-	pricestest "github.com/Bitoro-Network/chain/protocol/testutil/prices"
-	perpkeeper "github.com/Bitoro-Network/chain/protocol/x/perpetuals/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	priceskeeper "github.com/Bitoro-Network/chain/protocol/x/prices/keeper"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	perptest "github.com/bitoro-network/chain/protocol/testutil/perpetuals"
+	pricestest "github.com/bitoro-network/chain/protocol/testutil/prices"
+	perpkeeper "github.com/bitoro-network/chain/protocol/x/perpetuals/keeper"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	priceskeeper "github.com/bitoro-network/chain/protocol/x/prices/keeper"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

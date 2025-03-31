@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	sharedtypes "github.com/Bitoro-Network/chain/protocol/indexer/shared/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	sharedtypes "github.com/bitoro-network/chain/protocol/indexer/shared/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 )
 
 // ConvertOrderRemovalReasonToIndexerOrderRemovalReason converts a `OrderRemoval_RemovalReason` to indexer's

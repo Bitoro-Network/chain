@@ -3,9 +3,9 @@ package testexchange
 import (
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/coinbase_pro"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/coinbase_pro"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 )
 
 // Exchange used for testing purposes. We'll reuse the CoinbasePro price function.

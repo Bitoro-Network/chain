@@ -7,7 +7,7 @@ import (
 	"github.com/skip-mev/slinky/pkg/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/slinky"
+	"github.com/bitoro-network/chain/protocol/lib/slinky"
 )
 
 func TestMarketPairToCurrencyPair(t *testing.T) {

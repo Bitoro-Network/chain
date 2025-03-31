@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
-	ratelimitutil "github.com/Bitoro-Network/chain/protocol/x/ratelimit/util"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
+	ratelimitutil "github.com/bitoro-network/chain/protocol/x/ratelimit/util"
 	"github.com/stretchr/testify/require"
 )
 

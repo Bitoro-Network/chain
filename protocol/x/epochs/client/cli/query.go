@@ -10,7 +10,7 @@ import (
 	// "github.com/cosmos/cosmos-sdk/client/flags"
 	// sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/types"
+	"github.com/bitoro-network/chain/protocol/x/epochs/types"
 )
 
 // GetQueryCmd returns the cli query commands for this module

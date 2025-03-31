@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/network"
-	"github.com/Bitoro-Network/chain/protocol/x/vest/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/vest/types"
+	"github.com/bitoro-network/chain/protocol/testutil/network"
+	"github.com/bitoro-network/chain/protocol/x/vest/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/vest/types"
 	tmcli "github.com/cometbft/cometbft/libs/cli"
 	"github.com/cosmos/cosmos-sdk/client"
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"

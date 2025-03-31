@@ -7,8 +7,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	proto "github.com/cosmos/gogoproto/proto"
 	gometrics "github.com/hashicorp/go-metrics"
 )

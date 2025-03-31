@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/indexer/shared"
-	sharedtypes "github.com/Bitoro-Network/chain/protocol/indexer/shared/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/indexer/shared"
+	sharedtypes "github.com/bitoro-network/chain/protocol/indexer/shared/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/stretchr/testify/require"
 )
 

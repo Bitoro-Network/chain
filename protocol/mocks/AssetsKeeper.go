@@ -5,7 +5,7 @@ package mocks
 import (
 	big "math/big"
 
-	assetstypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	assetstypes "github.com/bitoro-network/chain/protocol/x/assets/types"
 
 	mock "github.com/stretchr/testify/mock"
 

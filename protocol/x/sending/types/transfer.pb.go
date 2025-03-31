@@ -10,7 +10,7 @@ import (
 	_ "github.com/cosmos/cosmos-sdk/types/msgservice"
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	proto "github.com/cosmos/gogoproto/proto"
-	types "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	types "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	io "io"
 	math "math"
 	math_bits "math/bits"

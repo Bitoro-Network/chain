@@ -5,12 +5,12 @@ package mocks
 import (
 	big "math/big"
 
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	mock "github.com/stretchr/testify/mock"
 
-	perpetualstypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	perpetualstypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 
-	subaccountstypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	subaccountstypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

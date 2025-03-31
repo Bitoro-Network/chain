@@ -10,13 +10,13 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	pricestest "github.com/Bitoro-Network/chain/protocol/testutil/prices"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	sendingtypes "github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	pricestest "github.com/bitoro-network/chain/protocol/testutil/prices"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	sendingtypes "github.com/bitoro-network/chain/protocol/x/sending/types"
 )
 
 var (

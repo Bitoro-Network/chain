@@ -4,10 +4,10 @@ import (
 	"math"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/accountplus"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	"github.com/stretchr/testify/require"
 )
 

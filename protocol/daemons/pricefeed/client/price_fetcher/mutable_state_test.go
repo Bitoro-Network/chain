@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	"github.com/stretchr/testify/require"
 )
 

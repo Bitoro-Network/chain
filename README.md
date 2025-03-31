@@ -3,7 +3,7 @@
 <h1 align="center">Bitoro Chain</h1>
 
 <div align="center">
-  <a href='https://github.com/Bitoro-Network/chain/blob/main/LICENSE'>
+  <a href='https://github.com/bitoro-network/chain/blob/main/LICENSE'>
     <img src='https://img.shields.io/badge/License-AGPL_v3-blue.svg' alt='License' />
   </a>
 </div>
@@ -46,11 +46,11 @@ By clicking the above links to third-party clients, you will leave the Bitoro Tr
 
 `docs` — Home for documentation pertaining to the entire repo.
 
-`indexer` — Contains source code for indexer services. See its [README](https://github.com/Bitoro-Network/chain/blob/main/indexer/README.md) for developer documentation.
+`indexer` — Contains source code for indexer services. See its [README](https://github.com/bitoro-network/chain/blob/main/indexer/README.md) for developer documentation.
 
 `proto` — Contains all protocol buffers used by protocol and indexer.
 
-`protocol` — Contains source code for the Cosmos SDK app that runs the protocol. See its [README](https://github.com/Bitoro-Network/chain/blob/main/protocol/README.md) for developer documentation.
+`protocol` — Contains source code for the Cosmos SDK app that runs the protocol. See its [README](https://github.com/bitoro-network/chain/blob/main/protocol/README.md) for developer documentation.
 
 `chain-proto-js` — Scripts for publishing proto package to [npm](https://www.npmjs.com/package/@bitoroprotocol/chain-proto).
 
@@ -58,8 +58,8 @@ By clicking the above links to third-party clients, you will leave the Bitoro Tr
 
 # Contributing
 
-If you encounter a bug, please file an [issue](https://github.com/Bitoro-Network/chain/issues) to let us know. Alternatively, please feel free to contribute a bug fix directly. If you are planning to contribute changes that involve significant design choices, please open an issue for discussion instead.
+If you encounter a bug, please file an [issue](https://github.com/bitoro-network/chain/issues) to let us know. Alternatively, please feel free to contribute a bug fix directly. If you are planning to contribute changes that involve significant design choices, please open an issue for discussion instead.
 
 # License and Terms
 
-The Bitoro Chain is licensed under AGPLv3 and subject to the [v4 Terms of Use](https://bitoro.foundation/chain-terms). The full license can be found [here](https://github.com/Bitoro-Network/chain/blob/main/LICENSE). Bitoro does not deploy or run v4 software for public use, or operate or control any Bitoro Chain infrastructure. Bitoro products and services are not available to persons or entities who reside in, are located in, are incorporated in, or have registered offices in the United States or Canada, or Restricted Persons (as defined in the Bitoro [Terms of Use](https://bitoro.foundation/terms)).
+The Bitoro Chain is licensed under AGPLv3 and subject to the [v4 Terms of Use](https://bitoro.foundation/chain-terms). The full license can be found [here](https://github.com/bitoro-network/chain/blob/main/LICENSE). Bitoro does not deploy or run v4 software for public use, or operate or control any Bitoro Chain infrastructure. Bitoro products and services are not available to persons or entities who reside in, are located in, are incorporated in, or have registered offices in the United States or Canada, or Restricted Persons (as defined in the Bitoro [Terms of Use](https://bitoro.foundation/terms)).

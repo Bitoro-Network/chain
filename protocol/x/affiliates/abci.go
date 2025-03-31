@@ -1,8 +1,8 @@
 package affiliates
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	"github.com/Bitoro-Network/chain/protocol/x/affiliates/keeper"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/x/affiliates/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

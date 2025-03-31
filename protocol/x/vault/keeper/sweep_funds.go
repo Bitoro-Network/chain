@@ -1,9 +1,9 @@
 package keeper
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

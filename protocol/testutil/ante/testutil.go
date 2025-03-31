@@ -5,11 +5,11 @@ import (
 	"time"
 
 	storetypes "cosmossdk.io/store/types"
-	v4module "github.com/Bitoro-Network/chain/protocol/app/module"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/authenticator"
-	accountpluskeeper "github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
-	accountplustypes "github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	v4module "github.com/bitoro-network/chain/protocol/app/module"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/authenticator"
+	accountpluskeeper "github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
+	accountplustypes "github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/runtime"
@@ -21,7 +21,7 @@ import (
 	txtestutil "github.com/cosmos/cosmos-sdk/x/auth/tx/testutil"
 	"github.com/cosmos/cosmos-sdk/x/bank"
 
-	perpetualskeeper "github.com/Bitoro-Network/chain/protocol/x/perpetuals/keeper"
+	perpetualskeeper "github.com/bitoro-network/chain/protocol/x/perpetuals/keeper"
 
 	"github.com/golang/mock/gomock"
 	"github.com/stretchr/testify/require"

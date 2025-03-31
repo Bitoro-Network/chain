@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/x/blocktime/keeper"
+	"github.com/bitoro-network/chain/protocol/x/blocktime/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

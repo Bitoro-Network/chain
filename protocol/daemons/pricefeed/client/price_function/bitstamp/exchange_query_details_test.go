@@ -3,7 +3,7 @@ package bitstamp_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/bitstamp"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/bitstamp"
 	"github.com/stretchr/testify/require"
 )
 

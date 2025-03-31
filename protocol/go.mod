@@ -1,4 +1,4 @@
-module github.com/Bitoro-Network/chain/protocol
+module github.com/bitoro-network/chain/protocol
 
 go 1.23.1
 

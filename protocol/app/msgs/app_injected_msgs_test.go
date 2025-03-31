@@ -10,10 +10,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/msgs"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/encoding"
-	testmsgs "github.com/Bitoro-Network/chain/protocol/testutil/msgs"
+	"github.com/bitoro-network/chain/protocol/app/msgs"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/encoding"
+	testmsgs "github.com/bitoro-network/chain/protocol/testutil/msgs"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,9 +3,9 @@ package constants
 import (
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/indexer/msgsender"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/indexer/msgsender"
+	"github.com/bitoro-network/chain/protocol/lib"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/cometbft/cometbft/crypto/tmhash"
 )
 

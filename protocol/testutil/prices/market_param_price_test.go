@@ -3,7 +3,7 @@ package prices_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/prices"
+	"github.com/bitoro-network/chain/protocol/testutil/prices"
 	"github.com/stretchr/testify/require"
 )
 

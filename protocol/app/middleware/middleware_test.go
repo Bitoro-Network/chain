@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/logger"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/logger"
 
-	"github.com/Bitoro-Network/chain/protocol/app/middleware"
+	"github.com/bitoro-network/chain/protocol/app/middleware"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,10 +5,10 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	assetstypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	sendingtypes "github.com/Bitoro-Network/chain/protocol/x/sending/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	assetstypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	sendingtypes "github.com/bitoro-network/chain/protocol/x/sending/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 )
 
 // RetrieveFromVault retrieves funds from a vault to main vault.

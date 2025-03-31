@@ -14,8 +14,8 @@ import (
 	"time"
 
 	sdklog "cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/indexer"
 	"github.com/Shopify/sarama"
+	"github.com/bitoro-network/chain/protocol/indexer"
 	"github.com/ory/dockertest"
 	"github.com/ory/dockertest/docker"
 	"github.com/stretchr/testify/require"

@@ -1,11 +1,11 @@
 package memclob
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/indexer/off_chain_updates"
-	ocutypes "github.com/Bitoro-Network/chain/protocol/indexer/off_chain_updates/types"
-	indexersharedtypes "github.com/Bitoro-Network/chain/protocol/indexer/shared/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/indexer/off_chain_updates"
+	ocutypes "github.com/bitoro-network/chain/protocol/indexer/off_chain_updates/types"
+	indexersharedtypes "github.com/bitoro-network/chain/protocol/indexer/shared/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

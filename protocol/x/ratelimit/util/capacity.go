@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 )
 
 // CalculateNewCapacityList calculates the new capacity list for the given current `tvl` and `limitParams“.

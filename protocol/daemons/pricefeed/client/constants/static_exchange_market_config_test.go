@@ -3,11 +3,11 @@ package constants
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed"
-	"github.com/Bitoro-Network/chain/protocol/testutil/json"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed"
+	"github.com/bitoro-network/chain/protocol/testutil/json"
 	"github.com/stretchr/testify/require"
 )
 

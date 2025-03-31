@@ -4,19 +4,19 @@ import (
 	"fmt"
 	"math/big"
 
-	sendingtypes "github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	sendingtypes "github.com/bitoro-network/chain/protocol/x/sending/types"
 
-	assetstypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	assetstypes "github.com/bitoro-network/chain/protocol/x/assets/types"
 
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/store/prefix"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

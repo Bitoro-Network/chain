@@ -4,12 +4,12 @@ import (
 	"math/big"
 	"time"
 
-	indexerevents "github.com/Bitoro-Network/chain/protocol/indexer/events"
-	indexer_manager "github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
+	indexerevents "github.com/bitoro-network/chain/protocol/indexer/events"
+	indexer_manager "github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	"github.com/Bitoro-Network/chain/protocol/x/sending/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/x/sending/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	gometrics "github.com/hashicorp/go-metrics"

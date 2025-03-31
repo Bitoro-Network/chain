@@ -3,9 +3,9 @@ package clob
 import (
 	"math/rand"
 
-	v4module "github.com/Bitoro-Network/chain/protocol/app/module"
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	clobsimulation "github.com/Bitoro-Network/chain/protocol/x/clob/simulation"
+	v4module "github.com/bitoro-network/chain/protocol/app/module"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	clobsimulation "github.com/bitoro-network/chain/protocol/x/clob/simulation"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/testutil/sims"

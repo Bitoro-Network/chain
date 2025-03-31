@@ -1,10 +1,10 @@
 package cli
 
 import (
-	customflags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	aptypes "github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	customflags "github.com/bitoro-network/chain/protocol/app/flags"
+	aptypes "github.com/bitoro-network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/cosmos/cosmos-sdk/client/tx"

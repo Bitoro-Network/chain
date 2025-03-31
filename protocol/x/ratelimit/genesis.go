@@ -1,8 +1,8 @@
 package ratelimit
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/keeper"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

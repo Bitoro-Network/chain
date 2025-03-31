@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/x/stats/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/x/stats/types"
 	"github.com/stretchr/testify/require"
 )
 

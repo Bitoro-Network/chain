@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/server/types"
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/daemons/server/types"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

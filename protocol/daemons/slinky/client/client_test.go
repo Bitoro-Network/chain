@@ -12,14 +12,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	appflags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	daemonflags "github.com/Bitoro-Network/chain/protocol/daemons/flags"
-	pricefeedtypes "github.com/Bitoro-Network/chain/protocol/daemons/server/types/pricefeed"
-	"github.com/Bitoro-Network/chain/protocol/daemons/slinky/client"
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/appoptions"
-	pricetypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	appflags "github.com/bitoro-network/chain/protocol/app/flags"
+	daemonflags "github.com/bitoro-network/chain/protocol/daemons/flags"
+	pricefeedtypes "github.com/bitoro-network/chain/protocol/daemons/server/types/pricefeed"
+	"github.com/bitoro-network/chain/protocol/daemons/slinky/client"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/appoptions"
+	pricetypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 func TestClient(t *testing.T) {

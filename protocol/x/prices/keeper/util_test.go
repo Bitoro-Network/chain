@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/stretchr/testify/require"
 )
 

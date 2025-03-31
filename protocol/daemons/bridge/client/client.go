@@ -6,14 +6,14 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	appflags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	"github.com/Bitoro-Network/chain/protocol/daemons/bridge/api"
-	"github.com/Bitoro-Network/chain/protocol/daemons/bridge/client/types"
-	"github.com/Bitoro-Network/chain/protocol/daemons/bridge/client/types/constants"
-	daemonflags "github.com/Bitoro-Network/chain/protocol/daemons/flags"
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
-	libtime "github.com/Bitoro-Network/chain/protocol/lib/time"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	appflags "github.com/bitoro-network/chain/protocol/app/flags"
+	"github.com/bitoro-network/chain/protocol/daemons/bridge/api"
+	"github.com/bitoro-network/chain/protocol/daemons/bridge/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/bridge/client/types/constants"
+	daemonflags "github.com/bitoro-network/chain/protocol/daemons/flags"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
+	libtime "github.com/bitoro-network/chain/protocol/lib/time"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 )
 

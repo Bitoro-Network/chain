@@ -55,10 +55,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bitoro-Network/chain.git"
+    "url": "git+https://github.com/bitoro-network/chain.git"
   },
   "bugs": {
-    "url": "https://github.com/Bitoro-Network/chain/issues"
+    "url": "https://github.com/bitoro-network/chain/issues"
   },
-  "homepage": "https://github.com/Bitoro-Network/chain#readme"
+  "homepage": "https://github.com/bitoro-network/chain#readme"
 }

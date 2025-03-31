@@ -7,16 +7,16 @@ import (
 	"sync"
 	"time"
 
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/handler"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	pricefeedmetrics "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/handler"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	pricefeedmetrics "github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	gometrics "github.com/hashicorp/go-metrics"
 	"gopkg.in/typ.v4/lists"
 )

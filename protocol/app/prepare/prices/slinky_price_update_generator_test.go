@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/prepare/prices"
+	"github.com/bitoro-network/chain/protocol/app/prepare/prices"
 	cmtabci "github.com/cometbft/cometbft/abci/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/skip-mev/slinky/abci/strategies/aggregator"

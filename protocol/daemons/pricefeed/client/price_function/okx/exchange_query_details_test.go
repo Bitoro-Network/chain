@@ -3,7 +3,7 @@ package okx_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/okx"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/okx"
 	"github.com/stretchr/testify/require"
 )
 

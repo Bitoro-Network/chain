@@ -3,15 +3,15 @@ package keeper
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	dbm "github.com/cosmos/cosmos-db"
 
 	storetypes "cosmossdk.io/store/types"
-	bridgeserver_types "github.com/Bitoro-Network/chain/protocol/daemons/server/types/bridge"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	bridgeserver_types "github.com/bitoro-network/chain/protocol/daemons/server/types/bridge"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/x/bridge/keeper"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

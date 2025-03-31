@@ -5,14 +5,14 @@ import (
 	"math"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/mocks"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/encoding"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/encoding"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/keeper"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/x/bridge/keeper"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 )
 
 func setupMsgServer(t *testing.T) (keeper.Keeper, types.MsgServer, context.Context) {

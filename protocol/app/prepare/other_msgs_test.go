@@ -3,10 +3,10 @@ package prepare_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/prepare"
-	testApp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/encoding"
+	"github.com/bitoro-network/chain/protocol/app/prepare"
+	testApp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/encoding"
 	"github.com/stretchr/testify/require"
 )
 

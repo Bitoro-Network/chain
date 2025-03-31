@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/slinky/client"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/daemons/slinky/client"
+	"github.com/bitoro-network/chain/protocol/mocks"
 	"github.com/skip-mev/slinky/service/servers/oracle/types"
 )
 

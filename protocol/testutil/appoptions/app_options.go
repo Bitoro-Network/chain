@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	appflags "github.com/Bitoro-Network/chain/protocol/app/flags"
+	appflags "github.com/bitoro-network/chain/protocol/app/flags"
 	"github.com/cosmos/cosmos-sdk/server/config"
 
-	daemonflags "github.com/Bitoro-Network/chain/protocol/daemons/flags"
+	daemonflags "github.com/bitoro-network/chain/protocol/daemons/flags"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	servertypes "github.com/cosmos/cosmos-sdk/server/types"
 )

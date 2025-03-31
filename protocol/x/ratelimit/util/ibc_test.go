@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/util"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/util"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ibctransfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"

@@ -5,33 +5,33 @@ import (
 	"math/big"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
 
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 
-	asstypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	asstypes "github.com/bitoro-network/chain/protocol/x/assets/types"
 
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 
-	perpetualtypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	perpetualtypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 	oracletypes "github.com/skip-mev/slinky/pkg/types"
 	marketmaptypes "github.com/skip-mev/slinky/x/marketmap/types"
 	"github.com/skip-mev/slinky/x/marketmap/types/tickermetadata"
 
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 
-	"github.com/Bitoro-Network/chain/protocol/x/listing/types"
+	"github.com/bitoro-network/chain/protocol/x/listing/types"
 	comettypes "github.com/cometbft/cometbft/types"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
 	"github.com/stretchr/testify/require"
 )
 

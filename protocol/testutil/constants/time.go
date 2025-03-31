@@ -3,7 +3,7 @@ package constants
 import (
 	"time"
 
-	pricefeed "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
+	pricefeed "github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
 )
 
 var (

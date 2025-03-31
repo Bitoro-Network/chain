@@ -1,8 +1,8 @@
 package blocktime
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
+	"github.com/bitoro-network/chain/protocol/x/blocktime/keeper"
+	"github.com/bitoro-network/chain/protocol/x/blocktime/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

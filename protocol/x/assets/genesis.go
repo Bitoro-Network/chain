@@ -1,8 +1,8 @@
 package assets
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/assets/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/x/assets/keeper"
+	"github.com/bitoro-network/chain/protocol/x/assets/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

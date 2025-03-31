@@ -5,12 +5,12 @@ import (
 
 	"cosmossdk.io/log"
 	storetypes "cosmossdk.io/store/types"
-	pricefeedtypes "github.com/Bitoro-Network/chain/protocol/daemons/server/types/pricefeed"
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	libtime "github.com/Bitoro-Network/chain/protocol/lib/time"
-	streamingtypes "github.com/Bitoro-Network/chain/protocol/streaming/types"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	pricefeedtypes "github.com/bitoro-network/chain/protocol/daemons/server/types/pricefeed"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/lib"
+	libtime "github.com/bitoro-network/chain/protocol/lib/time"
+	streamingtypes "github.com/bitoro-network/chain/protocol/streaming/types"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

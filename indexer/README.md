@@ -3,8 +3,8 @@
 <h1 align="center">Indexer</h1>
 
 <div align="center">
-  <a href="https://github.com/Bitoro-Network/chain/actions/workflows/indexer-build-test-coverage.yml?query=branch%3Amain" style="text-decoration:none;">
-    <img src="https://github.com/Bitoro-Network/chain/actions/workflows/indexer-build-test-coverage.yml/badge.svg?branch=main" />
+  <a href="https://github.com/bitoro-network/chain/actions/workflows/indexer-build-test-coverage.yml?query=branch%3Amain" style="text-decoration:none;">
+    <img src="https://github.com/bitoro-network/chain/actions/workflows/indexer-build-test-coverage.yml/badge.svg?branch=main" />
   </a>
 </div>
 
@@ -85,7 +85,7 @@ NOTE: `pnpm` allows running scripts across all directories using the `-r` flag o
 
 ## Protos
 
-Protos can be found in `proto/` [here](https://github.com/Bitoro-Network/chain/tree/main/proto).
+Protos can be found in `proto/` [here](https://github.com/bitoro-network/chain/tree/main/proto).
 
 ## Running unit tests
 

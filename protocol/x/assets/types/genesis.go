@@ -1,6 +1,6 @@
 package types
 
-import "github.com/Bitoro-Network/chain/protocol/lib"
+import "github.com/bitoro-network/chain/protocol/lib"
 
 const (
 	// UusdcDenom is the precomputed denom for IBC Micro USDC.

@@ -6,9 +6,9 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	libeth "github.com/Bitoro-Network/chain/protocol/lib/eth"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	libeth "github.com/bitoro-network/chain/protocol/lib/eth"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	ethcoretypes "github.com/ethereum/go-ethereum/core/types"

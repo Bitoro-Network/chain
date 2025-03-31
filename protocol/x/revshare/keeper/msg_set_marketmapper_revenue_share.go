@@ -6,7 +6,7 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/types"
+	"github.com/bitoro-network/chain/protocol/x/revshare/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

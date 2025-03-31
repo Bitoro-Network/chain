@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/margin"
+	"github.com/bitoro-network/chain/protocol/lib/margin"
 	"github.com/stretchr/testify/require"
 )
 

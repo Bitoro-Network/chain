@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	"github.com/stretchr/testify/require"
 )
 

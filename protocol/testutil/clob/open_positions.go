@@ -1,8 +1,8 @@
 package clob
 
 import (
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 func GetOpenPositionsFromSubaccounts(

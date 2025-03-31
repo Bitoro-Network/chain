@@ -3,11 +3,11 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/listing/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/listing/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/listing/keeper"
+	"github.com/bitoro-network/chain/protocol/x/listing/types"
 	"github.com/stretchr/testify/require"
 )
 

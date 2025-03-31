@@ -7,14 +7,14 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	"github.com/Bitoro-Network/chain/protocol/indexer/msgsender"
-	ocutypes "github.com/Bitoro-Network/chain/protocol/indexer/off_chain_updates/types"
-	v1 "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1"
-	"github.com/Bitoro-Network/chain/protocol/indexer/shared"
-	sharedtypes "github.com/Bitoro-Network/chain/protocol/indexer/shared/types"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/indexer/msgsender"
+	ocutypes "github.com/bitoro-network/chain/protocol/indexer/off_chain_updates/types"
+	v1 "github.com/bitoro-network/chain/protocol/indexer/protocol/v1"
+	"github.com/bitoro-network/chain/protocol/indexer/shared"
+	sharedtypes "github.com/bitoro-network/chain/protocol/indexer/shared/types"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

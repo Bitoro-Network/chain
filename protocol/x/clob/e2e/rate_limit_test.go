@@ -3,17 +3,17 @@ package clob_test
 import (
 	"testing"
 
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 
 	abcitypes "github.com/cometbft/cometbft/abci/types"
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/cometbft/cometbft/types"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	testtx "github.com/Bitoro-Network/chain/protocol/testutil/tx"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	testtx "github.com/bitoro-network/chain/protocol/testutil/tx"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,7 +7,7 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/json"
+	"github.com/bitoro-network/chain/protocol/testutil/json"
 	"github.com/stretchr/testify/require"
 )
 

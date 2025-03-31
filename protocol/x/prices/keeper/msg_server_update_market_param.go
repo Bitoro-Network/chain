@@ -3,14 +3,14 @@ package keeper
 import (
 	"context"
 
-	pricefeedmetrics "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	pricefeedmetrics "github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	gometrics "github.com/hashicorp/go-metrics"
 
 	errorsmod "cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 )
 

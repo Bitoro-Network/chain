@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
 	"github.com/stretchr/testify/require"
 )
 

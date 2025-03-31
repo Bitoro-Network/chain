@@ -3,8 +3,8 @@ package types
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // MakerFillWithOrder represents the filled amount of a matched maker order,

@@ -1,8 +1,8 @@
 package testutil
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/handler"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/bitfinex"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/handler"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/bitfinex"
 	"github.com/h2non/gock"
 )
 

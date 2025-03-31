@@ -7,7 +7,7 @@ CREATE OR REPLACE FUNCTION bitoro_process_trading_reward_event(
     - block_height: the height of the block being processing.
     - block_time: the time of the block being processed.
     - transaction_index: The transaction_index of the IndexerTendermintEvent after the conversion that takes into
-        account the block_event (https://github.com/Bitoro-Network/chain/blob/9ed26bd/indexer/services/ender/src/lib/helper.ts#L41)
+        account the block_event (https://github.com/bitoro-network/chain/blob/9ed26bd/indexer/services/ender/src/lib/helper.ts#L41)
     - transaction_hash: The transaction hash corresponding to this event from the IndexerTendermintBlock 'tx_hashes'.
     - event_index: The 'event_index' of the IndexerTendermintEvent.
   Returns: trading_rewards row that was created as a result of the trading_reward jsonb event

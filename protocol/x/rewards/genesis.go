@@ -1,8 +1,8 @@
 package rewards
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/rewards/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/rewards/types"
+	"github.com/bitoro-network/chain/protocol/x/rewards/keeper"
+	"github.com/bitoro-network/chain/protocol/x/rewards/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

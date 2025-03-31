@@ -6,7 +6,7 @@
   <a href='https://pypi.org/project/chain-proto'>
     <img src='https://img.shields.io/pypi/v/chain-proto.svg' alt='PyPI'/>
   </a>
-  <a href='https://github.com/Bitoro-Network/chain/blob/main/chain-proto-py/LICENSE'>
+  <a href='https://github.com/bitoro-network/chain/blob/main/chain-proto-py/LICENSE'>
     <img src='https://img.shields.io/badge/License-AGPL_v3-blue.svg' alt='License' />
   </a>
 </div>

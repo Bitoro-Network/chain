@@ -4,9 +4,9 @@ import (
 	"math/big"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 	"github.com/stretchr/testify/require"
 )
 

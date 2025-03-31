@@ -3,10 +3,10 @@ package keeper_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/x/listing/types"
+	"github.com/bitoro-network/chain/protocol/x/listing/types"
 	"github.com/stretchr/testify/require"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
 )
 
 func TestQueryMarketsHardCap(t *testing.T) {

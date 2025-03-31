@@ -3,8 +3,8 @@ package ibc_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/ibc"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/testutil/ibc"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
 	"github.com/stretchr/testify/require"
 )
 

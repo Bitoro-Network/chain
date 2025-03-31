@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/x/revshare/keeper"
+	"github.com/bitoro-network/chain/protocol/x/revshare/types"
 	"github.com/stretchr/testify/require"
 )
 

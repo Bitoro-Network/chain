@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,9 +3,9 @@ package prepare
 import (
 	"time"
 
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perpstypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perpstypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

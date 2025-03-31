@@ -3,7 +3,7 @@ package prepare
 import (
 	gometrics "github.com/hashicorp/go-metrics"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 )
 

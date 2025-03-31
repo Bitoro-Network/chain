@@ -1,7 +1,7 @@
 package ante
 
 import (
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

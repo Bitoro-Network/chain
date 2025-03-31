@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	msgsender "github.com/Bitoro-Network/chain/protocol/indexer/msgsender"
+	msgsender "github.com/bitoro-network/chain/protocol/indexer/msgsender"
 	mock "github.com/stretchr/testify/mock"
 )
 

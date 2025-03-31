@@ -1,8 +1,8 @@
 package constants
 
 import (
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

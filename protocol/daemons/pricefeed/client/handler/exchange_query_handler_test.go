@@ -8,15 +8,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
 
-	pf_constants "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	pft "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed"
+	pf_constants "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	pft "github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

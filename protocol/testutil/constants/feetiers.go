@@ -1,7 +1,7 @@
 package constants
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
+	"github.com/bitoro-network/chain/protocol/x/feetiers/types"
 )
 
 var PerpetualFeeParams = types.PerpetualFeeParams{

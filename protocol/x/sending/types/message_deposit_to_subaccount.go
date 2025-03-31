@@ -1,9 +1,9 @@
 package types
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

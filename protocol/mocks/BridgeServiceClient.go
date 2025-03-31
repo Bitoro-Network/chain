@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	api "github.com/Bitoro-Network/chain/protocol/daemons/bridge/api"
+	api "github.com/bitoro-network/chain/protocol/daemons/bridge/api"
 
 	grpc "google.golang.org/grpc"
 

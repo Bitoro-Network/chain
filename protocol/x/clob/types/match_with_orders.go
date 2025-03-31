@@ -3,7 +3,7 @@ package types
 import (
 	"errors"
 
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // MatchWithOrders represents a match which occurred between two orders and the amount that was matched.

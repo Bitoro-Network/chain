@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 )
 
 // DepositToMegavault deposits from a subaccount to megavault.

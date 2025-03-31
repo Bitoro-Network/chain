@@ -1,8 +1,8 @@
 package test_fixed_price_exchange
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 )
 
 // Fixed prices for BTC-USD, ETH-USD, SOL-USD

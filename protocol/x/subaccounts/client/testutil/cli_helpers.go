@@ -3,7 +3,7 @@ package testutil
 import (
 	"fmt"
 
-	sacli "github.com/Bitoro-Network/chain/protocol/x/subaccounts/client/cli"
+	sacli "github.com/bitoro-network/chain/protocol/x/subaccounts/client/cli"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	"github.com/cosmos/cosmos-sdk/client"

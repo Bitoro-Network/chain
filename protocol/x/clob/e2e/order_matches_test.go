@@ -3,13 +3,13 @@ package clob_test
 import (
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	clobtestutils "github.com/Bitoro-Network/chain/protocol/testutil/clob"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	feetiertypes "github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
-	prices "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	clobtestutils "github.com/bitoro-network/chain/protocol/testutil/clob"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	feetiertypes "github.com/bitoro-network/chain/protocol/x/feetiers/types"
+	prices "github.com/bitoro-network/chain/protocol/x/prices/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cometbft/cometbft/types"
 )
 

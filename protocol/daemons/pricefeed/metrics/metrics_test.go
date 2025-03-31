@@ -7,17 +7,17 @@ import (
 	"unsafe"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
-	grpc_util "github.com/Bitoro-Network/chain/protocol/testutil/grpc"
-	pricetypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
+	grpc_util "github.com/bitoro-network/chain/protocol/testutil/grpc"
+	pricetypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	pricefeedmetrics "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
+	pricefeedmetrics "github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	"github.com/stretchr/testify/require"
 )
 
@@ -27,7 +27,7 @@ const (
 
 // Used to clear the marketToPair map for testing purposes.
 //
-//go:linkname marketToPair github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics.marketToPair
+//go:linkname marketToPair github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics.marketToPair
 var marketToPair map[types.MarketId]string
 
 // clearMarketToPair resets the backing marketToPair map to an empty map.

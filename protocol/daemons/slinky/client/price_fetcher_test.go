@@ -11,10 +11,10 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	pricefeed_types "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
-	pricefeedserver_types "github.com/Bitoro-Network/chain/protocol/daemons/server/types/pricefeed"
-	"github.com/Bitoro-Network/chain/protocol/daemons/slinky/client"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	pricefeed_types "github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
+	pricefeedserver_types "github.com/bitoro-network/chain/protocol/daemons/server/types/pricefeed"
+	"github.com/bitoro-network/chain/protocol/daemons/slinky/client"
+	"github.com/bitoro-network/chain/protocol/mocks"
 )
 
 func TestPriceFetcher(t *testing.T) {

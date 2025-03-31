@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/logger"
+	"github.com/bitoro-network/chain/protocol/testutil/logger"
 	"github.com/stretchr/testify/require"
 )
 

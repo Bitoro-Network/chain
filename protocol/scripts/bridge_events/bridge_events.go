@@ -15,11 +15,11 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
-	"github.com/Bitoro-Network/chain/protocol/daemons/constants"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	libeth "github.com/Bitoro-Network/chain/protocol/lib/eth"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/app"
+	"github.com/bitoro-network/chain/protocol/daemons/constants"
+	"github.com/bitoro-network/chain/protocol/lib"
+	libeth "github.com/bitoro-network/chain/protocol/lib/eth"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
 
 	eth "github.com/ethereum/go-ethereum"
 	ethcommon "github.com/ethereum/go-ethereum/common"

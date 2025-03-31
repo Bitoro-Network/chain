@@ -3,7 +3,7 @@ package tx
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
+	"github.com/bitoro-network/chain/protocol/app"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"

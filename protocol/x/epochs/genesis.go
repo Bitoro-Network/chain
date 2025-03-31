@@ -1,8 +1,8 @@
 package epochs
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/types"
+	"github.com/bitoro-network/chain/protocol/x/epochs/keeper"
+	"github.com/bitoro-network/chain/protocol/x/epochs/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

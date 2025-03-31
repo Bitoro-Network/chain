@@ -1,7 +1,7 @@
 package types
 
 import (
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 )
 

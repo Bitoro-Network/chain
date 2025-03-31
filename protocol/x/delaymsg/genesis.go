@@ -1,8 +1,8 @@
 package delaymsg
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/keeper"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

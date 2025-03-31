@@ -4,11 +4,11 @@ import (
 	"math/big"
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 	"github.com/cometbft/cometbft/types"
 	"github.com/stretchr/testify/require"
 )

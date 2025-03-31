@@ -3,8 +3,8 @@ package msgsender_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/indexer/msgsender"
 	"github.com/Shopify/sarama"
+	"github.com/bitoro-network/chain/protocol/indexer/msgsender"
 	"github.com/stretchr/testify/require"
 )
 

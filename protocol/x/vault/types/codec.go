@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/app/module"
+	"github.com/bitoro-network/chain/protocol/app/module"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

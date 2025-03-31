@@ -5,12 +5,12 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	sendingtypes "github.com/Bitoro-Network/chain/protocol/x/sending/types"
-	vesttypes "github.com/Bitoro-Network/chain/protocol/x/vest/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	sendingtypes "github.com/bitoro-network/chain/protocol/x/sending/types"
+	vesttypes "github.com/bitoro-network/chain/protocol/x/vest/types"
 	"github.com/cometbft/cometbft/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"

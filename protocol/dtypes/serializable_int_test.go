@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/dtypes"
 	"github.com/stretchr/testify/require"
 )
 

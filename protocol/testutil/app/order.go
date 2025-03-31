@@ -6,13 +6,13 @@ package app
 import (
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	clobtest "github.com/Bitoro-Network/chain/protocol/testutil/clob"
-	perptest "github.com/Bitoro-Network/chain/protocol/testutil/perpetuals"
-	pricestest "github.com/Bitoro-Network/chain/protocol/testutil/prices"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/app"
+	"github.com/bitoro-network/chain/protocol/lib"
+	clobtest "github.com/bitoro-network/chain/protocol/testutil/clob"
+	perptest "github.com/bitoro-network/chain/protocol/testutil/perpetuals"
+	pricestest "github.com/bitoro-network/chain/protocol/testutil/prices"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cometbft/cometbft/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

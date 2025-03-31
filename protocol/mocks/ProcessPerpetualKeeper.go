@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	perpetualstypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	perpetualstypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 	mock "github.com/stretchr/testify/mock"
 
 	types "github.com/cosmos/cosmos-sdk/types"

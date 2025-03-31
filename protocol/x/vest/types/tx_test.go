@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/x/vest/types"
+	"github.com/bitoro-network/chain/protocol/x/vest/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/require"
 )

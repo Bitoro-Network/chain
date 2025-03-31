@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"testing"
 
-	big_testutil "github.com/Bitoro-Network/chain/protocol/testutil/big"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	big_testutil "github.com/bitoro-network/chain/protocol/testutil/big"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

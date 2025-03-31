@@ -4,8 +4,8 @@ import (
 	fmt "fmt"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	"github.com/stretchr/testify/require"
 )
 

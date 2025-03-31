@@ -3,9 +3,9 @@ package constants
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 var (

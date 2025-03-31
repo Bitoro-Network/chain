@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/indexer/msgsender"
+	"github.com/bitoro-network/chain/protocol/indexer/msgsender"
 	mapset "github.com/deckarep/golang-set/v2"
 )
 

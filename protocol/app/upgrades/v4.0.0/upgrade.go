@@ -5,11 +5,11 @@ import (
 	"fmt"
 
 	upgradetypes "cosmossdk.io/x/upgrade/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 	"github.com/cosmos/cosmos-sdk/types/module"
 
-	ratelimitkeeper "github.com/Bitoro-Network/chain/protocol/x/ratelimit/keeper"
-	ratelimittypes "github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	ratelimitkeeper "github.com/bitoro-network/chain/protocol/x/ratelimit/keeper"
+	ratelimittypes "github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 )
 
 func CreateUpgradeHandler(

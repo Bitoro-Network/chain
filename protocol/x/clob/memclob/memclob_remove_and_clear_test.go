@@ -3,11 +3,11 @@ package memclob
 import (
 	"testing"
 
-	clobtest "github.com/Bitoro-Network/chain/protocol/testutil/clob"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	memclobtestutil "github.com/Bitoro-Network/chain/protocol/testutil/memclob"
-	sdktest "github.com/Bitoro-Network/chain/protocol/testutil/sdk"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	clobtest "github.com/bitoro-network/chain/protocol/testutil/clob"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	memclobtestutil "github.com/bitoro-network/chain/protocol/testutil/memclob"
+	sdktest "github.com/bitoro-network/chain/protocol/testutil/sdk"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/stretchr/testify/require"
 )
 

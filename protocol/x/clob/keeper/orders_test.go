@@ -6,33 +6,33 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	indexerevents "github.com/Bitoro-Network/chain/protocol/indexer/events"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	indexerevents "github.com/bitoro-network/chain/protocol/indexer/events"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	perptest "github.com/Bitoro-Network/chain/protocol/testutil/perpetuals"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	perptest "github.com/bitoro-network/chain/protocol/testutil/perpetuals"
 	cmt "github.com/cometbft/cometbft/types"
 
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	clobtest "github.com/Bitoro-Network/chain/protocol/testutil/clob"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	memclobtest "github.com/Bitoro-Network/chain/protocol/testutil/memclob"
-	"github.com/Bitoro-Network/chain/protocol/testutil/tracer"
-	blocktimetypes "github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/memclob"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	feetypes "github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	"github.com/Bitoro-Network/chain/protocol/x/prices"
-	rewardtypes "github.com/Bitoro-Network/chain/protocol/x/rewards/types"
-	statstypes "github.com/Bitoro-Network/chain/protocol/x/stats/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	clobtest "github.com/bitoro-network/chain/protocol/testutil/clob"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	memclobtest "github.com/bitoro-network/chain/protocol/testutil/memclob"
+	"github.com/bitoro-network/chain/protocol/testutil/tracer"
+	blocktimetypes "github.com/bitoro-network/chain/protocol/x/blocktime/types"
+	"github.com/bitoro-network/chain/protocol/x/clob/keeper"
+	"github.com/bitoro-network/chain/protocol/x/clob/memclob"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	feetypes "github.com/bitoro-network/chain/protocol/x/feetiers/types"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/x/prices"
+	rewardtypes "github.com/bitoro-network/chain/protocol/x/rewards/types"
+	statstypes "github.com/bitoro-network/chain/protocol/x/stats/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
@@ -409,7 +409,7 @@ func TestPlaceShortTermOrder(t *testing.T) {
 		// that weren't placed on the first CLOB. If firstClobPair.QuantumConversionExponent >
 		// expectedClobPair.QuantumConversionExponent, then sellers receive more quote quantums and buyers are charged
 		// more. Vice versa if firstClobPair.QuantumConversionExponent < expectedClobPair.QuantumConversionExponent.
-		// Context: https://github.com/Bitoro-Network/chain/protocol/pull/562#discussion_r1024319468
+		// Context: https://github.com/bitoro-network/chain/protocol/pull/562#discussion_r1024319468
 		`Regression: New order should be fully collateralized when matching with previous fills
 				because the correct quantum conversion exponent was used`: {
 			perpetuals: []perptypes.Perpetual{

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"math/rand"
 
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"

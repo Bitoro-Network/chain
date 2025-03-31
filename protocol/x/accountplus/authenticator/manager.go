@@ -3,7 +3,7 @@ package authenticator
 import (
 	"sort"
 
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 )
 
 // AuthenticatorManager is a manager for all registered authenticators.

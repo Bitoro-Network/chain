@@ -3,10 +3,10 @@ package process_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/process"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/app/process"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"

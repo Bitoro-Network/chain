@@ -8,16 +8,16 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	appflags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	"github.com/Bitoro-Network/chain/protocol/daemons/flags"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/api"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/handler"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_fetcher"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
-	libtime "github.com/Bitoro-Network/chain/protocol/lib/time"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	appflags "github.com/bitoro-network/chain/protocol/app/flags"
+	"github.com/bitoro-network/chain/protocol/daemons/flags"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/api"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/handler"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_fetcher"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
+	libtime "github.com/bitoro-network/chain/protocol/lib/time"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 // Client encapsulates the logic for executing and cleanly stopping all subtasks associated with the

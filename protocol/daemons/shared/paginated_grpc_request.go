@@ -3,7 +3,7 @@ package shared
 import (
 	"context"
 
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 )
 

@@ -3,7 +3,7 @@ package binance_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/binance"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/binance"
 	"github.com/stretchr/testify/require"
 )
 

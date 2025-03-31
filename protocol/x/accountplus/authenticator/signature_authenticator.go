@@ -3,7 +3,7 @@ package authenticator
 import (
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
 
 	errorsmod "cosmossdk.io/errors"

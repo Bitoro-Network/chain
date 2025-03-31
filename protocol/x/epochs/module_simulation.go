@@ -1,8 +1,8 @@
 package epochs
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	epochssimulation "github.com/Bitoro-Network/chain/protocol/x/epochs/simulation"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	epochssimulation "github.com/bitoro-network/chain/protocol/x/epochs/simulation"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/testutil/sims"
 	"github.com/cosmos/cosmos-sdk/types/module"

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/delaymsg"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/testutil/delaymsg"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,7 +5,7 @@ import (
 
 	marketmaptypes "github.com/skip-mev/slinky/x/marketmap/types"
 
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/types"
+	"github.com/bitoro-network/chain/protocol/x/revshare/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

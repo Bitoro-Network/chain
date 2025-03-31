@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	cli_util "github.com/Bitoro-Network/chain/protocol/testutil/prices/cli"
+	cli_util "github.com/bitoro-network/chain/protocol/testutil/prices/cli"
 
 	tmcli "github.com/cometbft/cometbft/libs/cli"
 	"github.com/cosmos/cosmos-sdk/client/flags"
@@ -15,8 +15,8 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/Bitoro-Network/chain/protocol/x/prices/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/x/prices/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 func TestShowMarketParam(t *testing.T) {

@@ -4,7 +4,7 @@ import (
 	fmt "fmt"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	// satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	// satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 const (

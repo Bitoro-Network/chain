@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	upgradetypes "cosmossdk.io/x/upgrade/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	vaultkeeper "github.com/Bitoro-Network/chain/protocol/x/vault/keeper"
+	"github.com/bitoro-network/chain/protocol/lib"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	vaultkeeper "github.com/bitoro-network/chain/protocol/x/vault/keeper"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 )

@@ -2,7 +2,7 @@ Copyright (C) 2023 Bitoro Trading Inc.
 
 Subject to your compliance with applicable law and Terms of Use, available at docs.bitoro.network/legal/terms-of-use, you are granted the right to use the Program or Licensed Work (defined below) under the terms of the GNU Affero General Public License as set forth below; provided, however, that if you violate any such applicable law in your use of the Program or Licensed Work, all of your rights and licenses to use (including any rights to reproduce, distribute, install or modify) the Program or Licensed Work will automatically and immediately terminate.
 
-The “Program” or “Licensed Work” shall mean any of the following: Bitoro-Network/cosmos-sdk, Bitoro-Network/cometbft, Bitoro-Network/chain, Bitoro-Network/chain-protosclients, Bitoro-Network/chain-protosweb, Bitoro-Network/chain-protosabacus, Bitoro-Network/chain-protoslocalization, Bitoro-Network/chain-protosdocumentation, and any Bitoro or Bitoro Trading Inc. repository reflecting a copy of, or link to, this license.
+The “Program” or “Licensed Work” shall mean any of the following: bitoro-network/cosmos-sdk, bitoro-network/cometbft, bitoro-network/chain, bitoro-network/chain-protosclients, bitoro-network/chain-protosweb, bitoro-network/chain-protosabacus, bitoro-network/chain-protoslocalization, bitoro-network/chain-protosdocumentation, and any Bitoro or Bitoro Trading Inc. repository reflecting a copy of, or link to, this license.
 
 The GNU Affero General Public License
 Version 3, 19 November 2007

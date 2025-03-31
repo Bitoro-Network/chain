@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/types"
+	"github.com/bitoro-network/chain/protocol/x/revshare/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

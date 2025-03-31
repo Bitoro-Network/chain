@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/types"
+	"github.com/bitoro-network/chain/protocol/x/revshare/types"
 )
 
 var _ types.QueryServer = Keeper{}

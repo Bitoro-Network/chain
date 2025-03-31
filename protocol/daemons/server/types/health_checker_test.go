@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/daemons/server/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/daemons/server/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
 	"github.com/stretchr/testify/require"
 )
 

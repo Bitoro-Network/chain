@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/keeper"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 )
 
 // EndBlocker executes all ABCI EndBlock logic respective to the delaymsg module.

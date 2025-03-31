@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

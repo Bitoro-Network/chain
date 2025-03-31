@@ -7,15 +7,15 @@ import (
 	"strings"
 	"time"
 
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	pricefeedmetrics "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	libtime "github.com/Bitoro-Network/chain/protocol/lib/time"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	pricefeedmetrics "github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	libtime "github.com/bitoro-network/chain/protocol/lib/time"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	gometrics "github.com/hashicorp/go-metrics"
 )

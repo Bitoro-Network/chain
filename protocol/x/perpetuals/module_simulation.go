@@ -1,8 +1,8 @@
 package perpetuals
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	perpetualssimulation "github.com/Bitoro-Network/chain/protocol/x/perpetuals/simulation"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	perpetualssimulation "github.com/bitoro-network/chain/protocol/x/perpetuals/simulation"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/testutil/sims"
 	"github.com/cosmos/cosmos-sdk/types/module"

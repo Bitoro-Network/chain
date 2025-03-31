@@ -169,7 +169,7 @@ download_preupgrade_binary() {
 			exit 1
 			;;
 	esac
-	tar_url="https://github.com/Bitoro-Network/chain/releases/download/protocol%2F$PREUPGRADE_VERSION_FULL_NAME/bitoroprotocold-$PREUPGRADE_VERSION_FULL_NAME-linux-$url_arch.tar.gz"
+	tar_url="https://github.com/bitoro-network/chain/releases/download/protocol%2F$PREUPGRADE_VERSION_FULL_NAME/bitoroprotocold-$PREUPGRADE_VERSION_FULL_NAME-linux-$url_arch.tar.gz"
 	tar_path='/tmp/bitoroprotocold/bitoroprotocold.tar.gz'
 	mkdir -p /tmp/bitoroprotocold
 	curl -vL $tar_url -o $tar_path

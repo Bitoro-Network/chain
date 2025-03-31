@@ -5,8 +5,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
 )
 
 // These indices into the REST API response are defined in https://docs.bitfinex.com/reference/rest-public-tickers

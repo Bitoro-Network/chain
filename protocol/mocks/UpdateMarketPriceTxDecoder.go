@@ -4,7 +4,7 @@ package mocks
 
 import (
 	types "github.com/cosmos/cosmos-sdk/types"
-	process "github.com/Bitoro-Network/chain/protocol/app/process"
+	process "github.com/bitoro-network/chain/protocol/app/process"
 	mock "github.com/stretchr/testify/mock"
 )
 

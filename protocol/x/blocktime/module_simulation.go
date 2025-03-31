@@ -3,9 +3,9 @@ package blocktime
 import (
 	"math/rand"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
-	ratelimitsimulation "github.com/Bitoro-Network/chain/protocol/x/ratelimit/simulation"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	"github.com/bitoro-network/chain/protocol/x/blocktime/types"
+	ratelimitsimulation "github.com/bitoro-network/chain/protocol/x/ratelimit/simulation"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

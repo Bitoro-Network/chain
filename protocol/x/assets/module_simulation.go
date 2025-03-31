@@ -1,9 +1,9 @@
 package assets
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	assetssimulation "github.com/Bitoro-Network/chain/protocol/x/assets/simulation"
-	"github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	assetssimulation "github.com/bitoro-network/chain/protocol/x/assets/simulation"
+	"github.com/bitoro-network/chain/protocol/x/assets/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/testutil/sims"
 	"github.com/cosmos/cosmos-sdk/types/module"

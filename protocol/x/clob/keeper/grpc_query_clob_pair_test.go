@@ -9,11 +9,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/testutil/nullify"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/memclob"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/testutil/nullify"
+	"github.com/bitoro-network/chain/protocol/x/clob/memclob"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
 )
 
 // Prevent strconv unused error

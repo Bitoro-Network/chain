@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	ocutypes "github.com/Bitoro-Network/chain/protocol/indexer/off_chain_updates/types"
-	pv1types "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1/types"
-	stypes "github.com/Bitoro-Network/chain/protocol/indexer/shared/types"
-	"github.com/Bitoro-Network/chain/protocol/streaming/util"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	ocutypes "github.com/bitoro-network/chain/protocol/indexer/off_chain_updates/types"
+	pv1types "github.com/bitoro-network/chain/protocol/indexer/protocol/v1/types"
+	stypes "github.com/bitoro-network/chain/protocol/indexer/shared/types"
+	"github.com/bitoro-network/chain/protocol/streaming/util"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 func _ToPtr[V any](v V) *V {

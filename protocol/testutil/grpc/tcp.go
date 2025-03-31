@@ -1,6 +1,6 @@
 package grpc
 
-import "github.com/Bitoro-Network/chain/protocol/mocks"
+import "github.com/bitoro-network/chain/protocol/mocks"
 
 var (
 	TcpEndpoint = "localhost:9090"

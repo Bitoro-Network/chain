@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/indexer"
 	"github.com/Shopify/sarama"
 	"github.com/Shopify/sarama/mocks"
+	"github.com/bitoro-network/chain/protocol/indexer"
 	"github.com/stretchr/testify/require"
 )
 

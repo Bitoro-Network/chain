@@ -9,8 +9,8 @@ import (
 	cometabci "github.com/cometbft/cometbft/abci/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/app/process"
-	prices "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/app/process"
+	prices "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 // ExtendVoteHandler is a wrapper around the Slinky ExtendVoteHandler. This wrapper is responsible for

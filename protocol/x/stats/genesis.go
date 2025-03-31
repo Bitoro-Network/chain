@@ -1,8 +1,8 @@
 package stats
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/stats/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/stats/types"
+	"github.com/bitoro-network/chain/protocol/x/stats/keeper"
+	"github.com/bitoro-network/chain/protocol/x/stats/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

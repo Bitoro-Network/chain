@@ -1,7 +1,7 @@
 package liquidity_tier
 
 import (
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 )
 
 type LtModifierOption func(cp *perptypes.LiquidityTier)

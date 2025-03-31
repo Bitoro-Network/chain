@@ -6,8 +6,8 @@ import (
 	"math/rand"
 	"testing"
 
-	testutil_rand "github.com/Bitoro-Network/chain/protocol/testutil/rand"
-	"github.com/Bitoro-Network/chain/protocol/testutil/sim_helpers"
+	testutil_rand "github.com/bitoro-network/chain/protocol/testutil/rand"
+	"github.com/bitoro-network/chain/protocol/testutil/sim_helpers"
 	"github.com/stretchr/testify/require"
 )
 

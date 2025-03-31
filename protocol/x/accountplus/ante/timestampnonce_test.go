@@ -3,10 +3,10 @@ package ante_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	sdktest "github.com/Bitoro-Network/chain/protocol/testutil/sdk"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/ante"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	sdktest "github.com/bitoro-network/chain/protocol/testutil/sdk"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/ante"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"

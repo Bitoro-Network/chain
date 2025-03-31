@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/vault"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/lib/vault"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 )
 
 func TestSkewAntiderivativePpm(t *testing.T) {

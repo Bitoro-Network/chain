@@ -3,11 +3,11 @@ package ante_test
 import (
 	"testing"
 
-	appmsgs "github.com/Bitoro-Network/chain/protocol/app/msgs"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/ante"
-	testmsgs "github.com/Bitoro-Network/chain/protocol/testutil/msgs"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	appmsgs "github.com/bitoro-network/chain/protocol/app/msgs"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/ante"
+	testmsgs "github.com/bitoro-network/chain/protocol/testutil/msgs"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/testutil/testdata"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"

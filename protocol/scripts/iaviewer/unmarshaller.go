@@ -5,8 +5,8 @@ import (
 
 	"github.com/cosmos/gogoproto/proto"
 
-	app "github.com/Bitoro-Network/chain/protocol/app"
-	clob "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	app "github.com/bitoro-network/chain/protocol/app"
+	clob "github.com/bitoro-network/chain/protocol/x/clob/types"
 )
 
 func protoUnmarshaller[M proto.Message](b []byte) string {

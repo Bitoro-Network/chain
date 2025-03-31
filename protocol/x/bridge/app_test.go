@@ -7,11 +7,11 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/bridge/api"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	testtx "github.com/Bitoro-Network/chain/protocol/testutil/tx"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/daemons/bridge/api"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	testtx "github.com/bitoro-network/chain/protocol/testutil/tx"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
 	abcitypes "github.com/cometbft/cometbft/abci/types"
 	"github.com/cometbft/cometbft/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

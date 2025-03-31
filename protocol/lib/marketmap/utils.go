@@ -1,7 +1,7 @@
 package marketmap
 
 import (
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	bitoro "github.com/skip-mev/slinky/providers/apis/dydx"
 	bitorotypes "github.com/skip-mev/slinky/providers/apis/dydx/types"
 	marketmaptypes "github.com/skip-mev/slinky/x/marketmap/types"

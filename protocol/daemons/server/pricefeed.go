@@ -5,14 +5,14 @@ import (
 	"time"
 
 	errorsmod "cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/daemons/server/types"
+	"github.com/bitoro-network/chain/protocol/daemons/server/types"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/api"
-	pricefeedmetrics "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/metrics"
-	pricefeedtypes "github.com/Bitoro-Network/chain/protocol/daemons/server/types/pricefeed"
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/daemons/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/api"
+	pricefeedmetrics "github.com/bitoro-network/chain/protocol/daemons/pricefeed/metrics"
+	pricefeedtypes "github.com/bitoro-network/chain/protocol/daemons/server/types/pricefeed"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	gometrics "github.com/hashicorp/go-metrics"
 )

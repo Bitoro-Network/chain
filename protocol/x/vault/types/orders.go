@@ -1,7 +1,7 @@
 package types
 
 import (
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 )
 
 // GetVaultClobOrderClientId returns the client ID for a CLOB order where

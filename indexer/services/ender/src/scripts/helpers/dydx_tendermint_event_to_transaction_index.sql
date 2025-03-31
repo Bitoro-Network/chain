@@ -3,7 +3,7 @@ CREATE OR REPLACE FUNCTION bitoro_tendermint_event_to_transaction_index(event js
   Gets the transaction index from the IndexerTendermint event.
 
   Parameters:
-    - event: The JSON.stringify of a IndexerTendermintEvent object (https://github.com/Bitoro-Network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/indexer_manager/event.proto#L25).
+    - event: The JSON.stringify of a IndexerTendermintEvent object (https://github.com/bitoro-network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/indexer_manager/event.proto#L25).
   Returns: int.
 
   (Note that no text should exist before the function declaration to ensure that exception line numbers are correct.)

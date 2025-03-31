@@ -6,14 +6,14 @@ import (
 
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/encoding"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/encoding"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	bridgemoduletypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	bridgemoduletypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/keeper"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/mock"

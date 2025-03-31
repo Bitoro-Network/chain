@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
+	"github.com/bitoro-network/chain/protocol/app"
 
-	"github.com/Bitoro-Network/chain/protocol/cmd/bitoroprotocold/cmd"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/cmd/bitoroprotocold/cmd"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	comethttp "github.com/cometbft/cometbft/rpc/client/http"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

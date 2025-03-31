@@ -130,7 +130,7 @@ export const MAX_PARENT_SUBACCOUNTS: number = 128;
 
 export const CHILD_SUBACCOUNT_MULTIPLIER: number = 1000;
 
-// From https://github.com/Bitoro-Network/chain/blob/protocol/v7.0.0-dev0/protocol/app/module_accounts_test.go#L41
+// From https://github.com/bitoro-network/chain/blob/protocol/v7.0.0-dev0/protocol/app/module_accounts_test.go#L41
 export const MEGAVAULT_MODULE_ADDRESS: string = 'btoro18tkxrnrkqc2t0lr3zxr5g6a4hdvqksylxqje4r';
 // Generated from the module address + subaccount number 0.
 export const MEGAVAULT_SUBACCOUNT_ID: string = 'c7169f81-0c80-54c5-a41f-9cbb6a538fdf';

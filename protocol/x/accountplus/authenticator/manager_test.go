@@ -7,8 +7,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/authenticator"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/authenticator"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 )
 
 // Mock Authenticator for testing purposes

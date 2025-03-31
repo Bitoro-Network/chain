@@ -17,7 +17,7 @@ cd ..
 
 # move proto files to the right places
 find . -name "*.pb.go" -o -name "*.pb.gw.go" -type f -not -path "./proto/*" -delete
-cp -r proto/.gen/github.com/Bitoro-Network/chain/protocol/* ./protocol/
+cp -r proto/.gen/github.com/bitoro-network/chain/protocol/* ./protocol/
 rm -rf proto/.gen/github.com/
 
 cd protocol && go mod tidy

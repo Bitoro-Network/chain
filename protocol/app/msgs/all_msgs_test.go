@@ -5,9 +5,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/msgs"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/app/msgs"
+	"github.com/bitoro-network/chain/protocol/lib"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
 	"github.com/stretchr/testify/require"
 )
 

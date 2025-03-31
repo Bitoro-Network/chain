@@ -11,9 +11,9 @@ import (
 
 	slinkytypes "github.com/skip-mev/slinky/pkg/types"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/slinky/client"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/daemons/slinky/client"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 func TestMarketPairFetcher(t *testing.T) {

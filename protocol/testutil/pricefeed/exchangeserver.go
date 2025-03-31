@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/testexchange"
-	pricefeed "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/client/testutil"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/testexchange"
+	pricefeed "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
+	"github.com/bitoro-network/chain/protocol/x/prices/client/testutil"
 )
 
 // This file implements an HTTP server that is used to fake price data from exchanges.

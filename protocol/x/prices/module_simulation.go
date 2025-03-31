@@ -3,7 +3,7 @@ package prices
 // DONTCOVER
 
 import (
-	pricessimulation "github.com/Bitoro-Network/chain/protocol/x/prices/simulation"
+	pricessimulation "github.com/bitoro-network/chain/protocol/x/prices/simulation"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 )

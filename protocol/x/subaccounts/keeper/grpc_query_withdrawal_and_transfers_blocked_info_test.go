@@ -8,12 +8,12 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	btkeeper "github.com/Bitoro-Network/chain/protocol/x/blocktime/keeper"
-	blocktimetypes "github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
-	sakeeper "github.com/Bitoro-Network/chain/protocol/x/subaccounts/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	btkeeper "github.com/bitoro-network/chain/protocol/x/blocktime/keeper"
+	blocktimetypes "github.com/bitoro-network/chain/protocol/x/blocktime/types"
+	sakeeper "github.com/bitoro-network/chain/protocol/x/subaccounts/keeper"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 )
 

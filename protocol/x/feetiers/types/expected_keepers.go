@@ -1,9 +1,9 @@
 package types
 
 import (
-	affiliatetypes "github.com/Bitoro-Network/chain/protocol/x/affiliates/types"
-	revsharetypes "github.com/Bitoro-Network/chain/protocol/x/revshare/types"
-	statstypes "github.com/Bitoro-Network/chain/protocol/x/stats/types"
+	affiliatetypes "github.com/bitoro-network/chain/protocol/x/affiliates/types"
+	revsharetypes "github.com/bitoro-network/chain/protocol/x/revshare/types"
+	statstypes "github.com/bitoro-network/chain/protocol/x/stats/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

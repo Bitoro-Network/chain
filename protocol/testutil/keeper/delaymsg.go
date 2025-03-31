@@ -3,16 +3,16 @@ package keeper
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/ante"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/ante"
 	dbm "github.com/cosmos/cosmos-db"
 
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	bridgekeeper "github.com/Bitoro-Network/chain/protocol/x/bridge/keeper"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	bridgekeeper "github.com/bitoro-network/chain/protocol/x/bridge/keeper"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/keeper"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"

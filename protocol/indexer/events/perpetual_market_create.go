@@ -1,9 +1,9 @@
 package events
 
 import (
-	v1 "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	v1 "github.com/bitoro-network/chain/protocol/indexer/protocol/v1"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 )
 
 // NewPerpetualMarketCreateEvent creates a PerpetualMarketCreateEvent

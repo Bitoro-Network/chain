@@ -4,10 +4,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
-	"github.com/Bitoro-Network/chain/protocol/x/sending/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
+	"github.com/bitoro-network/chain/protocol/x/sending/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 
 	"github.com/stretchr/testify/require"
 )

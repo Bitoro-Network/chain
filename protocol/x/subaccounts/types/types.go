@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"math/rand"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/margin"
+	"github.com/bitoro-network/chain/protocol/lib/margin"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

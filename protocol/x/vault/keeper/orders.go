@@ -8,12 +8,12 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/store/prefix"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	"github.com/Bitoro-Network/chain/protocol/lib/vault"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/lib/vault"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

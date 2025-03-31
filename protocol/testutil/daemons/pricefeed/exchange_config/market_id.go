@@ -1,6 +1,6 @@
 package exchange_config
 
-import "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+import "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 
 // All market ids must match with the genesis state.
 const (

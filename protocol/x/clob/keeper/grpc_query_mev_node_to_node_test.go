@@ -7,13 +7,13 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/memclob"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals"
-	"github.com/Bitoro-Network/chain/protocol/x/prices"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/x/clob/memclob"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals"
+	"github.com/bitoro-network/chain/protocol/x/prices"
 )
 
 func TestMevNodeToNodeCalculation(t *testing.T) {

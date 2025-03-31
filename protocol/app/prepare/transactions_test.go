@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/prepare"
+	"github.com/bitoro-network/chain/protocol/app/prepare"
 	abci "github.com/cometbft/cometbft/abci/types"
 	"github.com/stretchr/testify/require"
 )

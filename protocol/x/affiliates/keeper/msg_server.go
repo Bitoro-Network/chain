@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/Bitoro-Network/chain/protocol/x/affiliates/types"
+	"github.com/bitoro-network/chain/protocol/x/affiliates/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

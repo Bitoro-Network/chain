@@ -6,8 +6,8 @@ import (
 	"cosmossdk.io/store/rootmulti"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
-	testApp "github.com/Bitoro-Network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/app"
+	testApp "github.com/bitoro-network/chain/protocol/testutil/app"
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 	"github.com/stretchr/testify/require"
 )

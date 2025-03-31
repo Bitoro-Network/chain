@@ -3,8 +3,8 @@ package types
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 // PriceToSubticks converts price value from Prices module into subticks.

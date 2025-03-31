@@ -1,8 +1,8 @@
 package sending
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/sending/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	"github.com/bitoro-network/chain/protocol/x/sending/keeper"
+	"github.com/bitoro-network/chain/protocol/x/sending/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

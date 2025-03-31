@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 )
 
 // AddPremiumVotes add new premium sample votes from a proposer to the application.

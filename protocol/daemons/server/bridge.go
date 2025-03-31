@@ -3,9 +3,9 @@ package server
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/bridge/api"
-	"github.com/Bitoro-Network/chain/protocol/daemons/server/types"
-	bdtypes "github.com/Bitoro-Network/chain/protocol/daemons/server/types/bridge"
+	"github.com/bitoro-network/chain/protocol/daemons/bridge/api"
+	"github.com/bitoro-network/chain/protocol/daemons/server/types"
+	bdtypes "github.com/bitoro-network/chain/protocol/daemons/server/types/bridge"
 )
 
 // BridgeServer defines the fields required for bridge event updates.

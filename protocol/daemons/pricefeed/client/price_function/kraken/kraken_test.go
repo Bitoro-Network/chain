@@ -4,11 +4,11 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/kraken"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/testutil"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/kraken"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/testutil"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed"
 	"github.com/stretchr/testify/require"
 )
 

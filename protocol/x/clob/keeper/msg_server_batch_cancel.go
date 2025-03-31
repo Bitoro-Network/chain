@@ -3,7 +3,7 @@ package keeper
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
 )
 
 // BatchCancel performs batch order cancellation functionality for short term orders.

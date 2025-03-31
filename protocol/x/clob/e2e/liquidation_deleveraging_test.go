@@ -5,21 +5,21 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/liquidation/api"
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/daemons/liquidation/api"
+	"github.com/bitoro-network/chain/protocol/dtypes"
 
 	"github.com/cometbft/cometbft/types"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	clobtest "github.com/Bitoro-Network/chain/protocol/testutil/clob"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	feetiertypes "github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	prices "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	clobtest "github.com/bitoro-network/chain/protocol/testutil/clob"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	feetiertypes "github.com/bitoro-network/chain/protocol/x/feetiers/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	prices "github.com/bitoro-network/chain/protocol/x/prices/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,7 +3,7 @@ package events_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/indexer/events"
+	"github.com/bitoro-network/chain/protocol/indexer/events"
 	"github.com/stretchr/testify/require"
 )
 

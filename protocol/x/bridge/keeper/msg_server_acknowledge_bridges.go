@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 )
 
 // AcknowledgeBridges acknowledges bridge events and sets them to complete

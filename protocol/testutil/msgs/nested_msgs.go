@@ -6,10 +6,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/authz"
 	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/encoding"
-	prices "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	sending "github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/encoding"
+	prices "github.com/bitoro-network/chain/protocol/x/prices/types"
+	sending "github.com/bitoro-network/chain/protocol/x/sending/types"
 	marketmap "github.com/skip-mev/slinky/x/marketmap/types"
 )
 

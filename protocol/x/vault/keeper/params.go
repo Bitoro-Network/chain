@@ -3,10 +3,10 @@ package keeper
 import (
 	"cosmossdk.io/store/prefix"
 	storetypes "cosmossdk.io/store/types"
-	indexerevents "github.com/Bitoro-Network/chain/protocol/indexer/events"
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	indexerevents "github.com/bitoro-network/chain/protocol/indexer/events"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

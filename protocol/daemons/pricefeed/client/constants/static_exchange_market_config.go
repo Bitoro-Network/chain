@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 )
 
 const (

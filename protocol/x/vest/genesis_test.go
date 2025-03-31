@@ -3,10 +3,10 @@ package vest_test
 import (
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
 
-	"github.com/Bitoro-Network/chain/protocol/x/vest"
-	"github.com/Bitoro-Network/chain/protocol/x/vest/types"
+	"github.com/bitoro-network/chain/protocol/x/vest"
+	"github.com/bitoro-network/chain/protocol/x/vest/types"
 	"github.com/stretchr/testify/require"
 )
 

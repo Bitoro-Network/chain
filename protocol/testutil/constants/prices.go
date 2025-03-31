@@ -1,9 +1,9 @@
 package constants
 
 import (
-	pricefeedclient "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	pricefeedclient "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 func init() {

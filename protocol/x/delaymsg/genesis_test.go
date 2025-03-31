@@ -3,10 +3,10 @@ package delaymsg_test
 import (
 	"testing"
 
-	testutildelaymsg "github.com/Bitoro-Network/chain/protocol/testutil/delaymsg"
-	"github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	testutildelaymsg "github.com/bitoro-network/chain/protocol/testutil/delaymsg"
+	"github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	"github.com/stretchr/testify/require"
 )
 

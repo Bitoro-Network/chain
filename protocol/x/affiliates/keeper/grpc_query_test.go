@@ -5,15 +5,15 @@ import (
 	"testing"
 
 	"cosmossdk.io/math"
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/x/affiliates/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/affiliates/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/x/affiliates/keeper"
+	"github.com/bitoro-network/chain/protocol/x/affiliates/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/stretchr/testify/require"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	constants "github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	constants "github.com/bitoro-network/chain/protocol/testutil/constants"
 )
 
 func TestAffiliateInfo(t *testing.T) {

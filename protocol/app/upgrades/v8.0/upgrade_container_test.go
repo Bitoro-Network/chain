@@ -5,18 +5,18 @@ package v_8_0_test
 import (
 	"testing"
 
-	v_8_0 "github.com/Bitoro-Network/chain/protocol/app/upgrades/v8.0"
+	v_8_0 "github.com/bitoro-network/chain/protocol/app/upgrades/v8.0"
 
 	"github.com/cosmos/gogoproto/proto"
 
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 
-	aptypes "github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricetypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	aptypes "github.com/bitoro-network/chain/protocol/x/accountplus/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricetypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 
-	"github.com/Bitoro-Network/chain/protocol/testing/containertest"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testing/containertest"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	"github.com/stretchr/testify/require"
 )
 

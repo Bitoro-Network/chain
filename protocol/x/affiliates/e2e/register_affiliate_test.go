@@ -3,9 +3,9 @@ package affiliate_test
 import (
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	constants "github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/affiliates/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	constants "github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/affiliates/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -15,7 +15,7 @@ import (
 	"testing"
 	"time"
 
-	listingtypes "github.com/Bitoro-Network/chain/protocol/x/listing/types"
+	listingtypes "github.com/bitoro-network/chain/protocol/x/listing/types"
 
 	"cosmossdk.io/log"
 	"cosmossdk.io/store/rootmulti"
@@ -23,32 +23,32 @@ import (
 	cmtlog "github.com/cometbft/cometbft/libs/log"
 	dbm "github.com/cosmos/cosmos-db"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
-	appconstants "github.com/Bitoro-Network/chain/protocol/app/constants"
-	"github.com/Bitoro-Network/chain/protocol/cmd/bitoroprotocold/cmd"
-	"github.com/Bitoro-Network/chain/protocol/indexer"
-	"github.com/Bitoro-Network/chain/protocol/testutil/appoptions"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	testlog "github.com/Bitoro-Network/chain/protocol/testutil/logger"
-	aptypes "github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	blocktimetypes "github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
-	epochstypes "github.com/Bitoro-Network/chain/protocol/x/epochs/types"
-	feetiertypes "github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
-	govplus "github.com/Bitoro-Network/chain/protocol/x/govplus/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	ratelimittypes "github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
-	revsharetypes "github.com/Bitoro-Network/chain/protocol/x/revshare/types"
-	rewardstypes "github.com/Bitoro-Network/chain/protocol/x/rewards/types"
-	sendingtypes "github.com/Bitoro-Network/chain/protocol/x/sending/types"
-	stattypes "github.com/Bitoro-Network/chain/protocol/x/stats/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
-	vesttypes "github.com/Bitoro-Network/chain/protocol/x/vest/types"
+	"github.com/bitoro-network/chain/protocol/app"
+	appconstants "github.com/bitoro-network/chain/protocol/app/constants"
+	"github.com/bitoro-network/chain/protocol/cmd/bitoroprotocold/cmd"
+	"github.com/bitoro-network/chain/protocol/indexer"
+	"github.com/bitoro-network/chain/protocol/testutil/appoptions"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	testlog "github.com/bitoro-network/chain/protocol/testutil/logger"
+	aptypes "github.com/bitoro-network/chain/protocol/x/accountplus/types"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	blocktimetypes "github.com/bitoro-network/chain/protocol/x/blocktime/types"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
+	epochstypes "github.com/bitoro-network/chain/protocol/x/epochs/types"
+	feetiertypes "github.com/bitoro-network/chain/protocol/x/feetiers/types"
+	govplus "github.com/bitoro-network/chain/protocol/x/govplus/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	ratelimittypes "github.com/bitoro-network/chain/protocol/x/ratelimit/types"
+	revsharetypes "github.com/bitoro-network/chain/protocol/x/revshare/types"
+	rewardstypes "github.com/bitoro-network/chain/protocol/x/rewards/types"
+	sendingtypes "github.com/bitoro-network/chain/protocol/x/sending/types"
+	stattypes "github.com/bitoro-network/chain/protocol/x/stats/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
+	vesttypes "github.com/bitoro-network/chain/protocol/x/vest/types"
 	abcitypes "github.com/cometbft/cometbft/abci/types"
 	tmcfg "github.com/cometbft/cometbft/config"
 	tmcli "github.com/cometbft/cometbft/libs/cli"
@@ -173,7 +173,7 @@ func DefaultTestApp(customFlags map[string]interface{}, baseAppOptions ...func(*
 
 // DefaultGenesis returns a genesis doc using configuration from the local net with a genesis time
 // equivalent to unix epoch + 1 nanosecond. We specifically use non-zero because stateful orders
-// validate that block time is non-zero (https://github.com/Bitoro-Network/chain/protocol/blob/
+// validate that block time is non-zero (https://github.com/bitoro-network/chain/protocol/blob/
 // 84a046554ab1b4725475500d94a0b3179fdd18c2/x/clob/keeper/stateful_order_state.go#L237).
 func DefaultGenesis() (genesis types.GenesisDoc) {
 	// NOTE: Tendermint uses a custom JSON decoder for GenesisDoc
@@ -1247,7 +1247,7 @@ func launchValidatorInDir(
 	parentCtx, cancelFn := context.WithCancel(context.Background())
 
 	appCaptor := make(chan *app.App, 1)
-	// Set up the root command using https://github.com/Bitoro-Network/chain/blob/
+	// Set up the root command using https://github.com/bitoro-network/chain/blob/
 	// 1fa21ed5d848ed7cc6a98053838cadb68422079f/protocol/cmd/bitoroprotocold/main.go#L12 as a basis.
 	option := cmd.GetOptionWithCustomStartCmd()
 	rootCmd := cmd.NewRootCmdWithInterceptors(

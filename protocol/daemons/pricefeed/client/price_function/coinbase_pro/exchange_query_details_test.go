@@ -3,7 +3,7 @@ package coinbase_pro_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/coinbase_pro"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/coinbase_pro"
 	"github.com/stretchr/testify/require"
 )
 

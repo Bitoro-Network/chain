@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/x/vest/types"
+	"github.com/bitoro-network/chain/protocol/x/vest/types"
 	"github.com/stretchr/testify/require"
 )
 

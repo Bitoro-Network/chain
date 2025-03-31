@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
+	"github.com/bitoro-network/chain/protocol/x/blocktime/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
 	"github.com/spf13/cobra"

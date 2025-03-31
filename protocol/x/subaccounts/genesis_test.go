@@ -6,12 +6,12 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/testutil/nullify"
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/testutil/nullify"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/keeper"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

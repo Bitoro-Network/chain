@@ -5,10 +5,10 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/Bitoro-Network/chain/protocol/app/process"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/encoding"
-	testmsgs "github.com/Bitoro-Network/chain/protocol/testutil/msgs"
+	"github.com/bitoro-network/chain/protocol/app/process"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/encoding"
+	testmsgs "github.com/bitoro-network/chain/protocol/testutil/msgs"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

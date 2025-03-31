@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/app/flags"
-	testApp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	testlog "github.com/Bitoro-Network/chain/protocol/testutil/logger"
+	"github.com/bitoro-network/chain/protocol/app/flags"
+	testApp "github.com/bitoro-network/chain/protocol/testutil/app"
+	testlog "github.com/bitoro-network/chain/protocol/testutil/logger"
 	abci "github.com/cometbft/cometbft/abci/types"
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	gometrics "github.com/hashicorp/go-metrics"

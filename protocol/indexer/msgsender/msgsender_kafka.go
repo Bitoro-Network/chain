@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/indexer"
-	"github.com/Bitoro-Network/chain/protocol/indexer/msgsender/types"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
 	"github.com/Shopify/sarama"
+	"github.com/bitoro-network/chain/protocol/indexer"
+	"github.com/bitoro-network/chain/protocol/indexer/msgsender/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	"github.com/burdiyan/kafkautil"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 )

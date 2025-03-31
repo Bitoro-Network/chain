@@ -1,7 +1,7 @@
 package constants
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/lib/slinky"
+	"github.com/bitoro-network/chain/protocol/lib/slinky"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	slinkytypes "github.com/skip-mev/slinky/pkg/types"

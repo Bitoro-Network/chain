@@ -4,7 +4,7 @@ CREATE OR REPLACE FUNCTION bitoro_register_affiliate_handler(block_height int, e
     - event_data: The 'data' field of the IndexerTendermintEvent (https://github.com/bitoro-network/chain-proto/blob/8d35c86/bitoroprotocol/indexer/indexer_manager/event.proto#L25)
         converted to JSON format. Conversion to JSON is expected to be done by JSON.stringify.
   Returns: JSON object containing fields:
-    - referral: The created affiliate referee pair in affiliate-referred-users-model format (https://github.com/Bitoro-Network/chain/blob/ce6925f9e70b328f72a745a02ad46ac4b6c39ef3/indexer/packages/postgres/src/models/affiliate-referred-users-model.ts).
+    - referral: The created affiliate referee pair in affiliate-referred-users-model format (https://github.com/bitoro-network/chain/blob/ce6925f9e70b328f72a745a02ad46ac4b6c39ef3/indexer/packages/postgres/src/models/affiliate-referred-users-model.ts).
 
   (Note that no text should exist before the function declaration to ensure that exception line numbers are correct.)
 */

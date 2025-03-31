@@ -3,8 +3,8 @@ package types
 import (
 	"math/big"
 
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

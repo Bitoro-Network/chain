@@ -5,8 +5,8 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

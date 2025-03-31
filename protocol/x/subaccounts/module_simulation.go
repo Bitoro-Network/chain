@@ -1,8 +1,8 @@
 package subaccounts
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	subaccountssimulation "github.com/Bitoro-Network/chain/protocol/x/subaccounts/simulation"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	subaccountssimulation "github.com/bitoro-network/chain/protocol/x/subaccounts/simulation"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/testutil/sims"
 	"github.com/cosmos/cosmos-sdk/types/module"

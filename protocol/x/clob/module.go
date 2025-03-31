@@ -13,11 +13,11 @@ import (
 
 	abci "github.com/cometbft/cometbft/abci/types"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/x/clob/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/clob/keeper"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"

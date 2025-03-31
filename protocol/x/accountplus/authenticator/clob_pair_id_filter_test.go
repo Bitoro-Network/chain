@@ -4,13 +4,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/authenticator"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/authenticator"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/lib"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 
 	"github.com/stretchr/testify/suite"
 )

@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function"
 	"github.com/stretchr/testify/require"
 )
 

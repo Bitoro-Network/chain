@@ -10,8 +10,8 @@ import (
 	slinkytypes "github.com/skip-mev/slinky/pkg/types"
 	oracletypes "github.com/skip-mev/slinky/x/oracle/types"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/slinky"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/lib/slinky"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 /*

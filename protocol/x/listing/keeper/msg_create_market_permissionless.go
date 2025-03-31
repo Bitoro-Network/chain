@@ -3,8 +3,8 @@ package keeper
 import (
 	"context"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/listing/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/listing/types"
 )
 
 func (k msgServer) CreateMarketPermissionless(

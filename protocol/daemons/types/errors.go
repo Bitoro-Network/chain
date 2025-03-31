@@ -5,7 +5,7 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/constants"
 )
 
 const Name = "daemons"

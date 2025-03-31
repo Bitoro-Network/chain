@@ -15,11 +15,11 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/authenticator"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/testutils"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/authenticator"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/lib"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/testutils"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 )
 
 type AggregatedAuthenticatorsTest struct {

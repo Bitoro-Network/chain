@@ -3,7 +3,7 @@ package price_fetcher
 import (
 	"sync"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 	"golang.org/x/exp/maps"
 	"gopkg.in/typ.v4/lists"
 )

@@ -2,10 +2,10 @@ package keeper
 
 import (
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/blocktime/keeper"
+	"github.com/bitoro-network/chain/protocol/x/blocktime/types"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/cosmos/cosmos-sdk/codec"
 )

@@ -5,8 +5,8 @@ import (
 
 	"google.golang.org/grpc/codes"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/delaymsg/types"
 	"google.golang.org/grpc/status"
 )
 

@@ -3,9 +3,9 @@ package ratelimit
 import (
 	"math/rand"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	ratelimitsimulation "github.com/Bitoro-Network/chain/protocol/x/ratelimit/simulation"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	ratelimitsimulation "github.com/bitoro-network/chain/protocol/x/ratelimit/simulation"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

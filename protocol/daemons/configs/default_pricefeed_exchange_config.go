@@ -7,9 +7,9 @@ import (
 	"path/filepath"
 	"text/template"
 
-	daemonconstants "github.com/Bitoro-Network/chain/protocol/daemons/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	daemonconstants "github.com/bitoro-network/chain/protocol/daemons/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 	tmos "github.com/cometbft/cometbft/libs/os"
 	"github.com/pelletier/go-toml"
 )

@@ -3,7 +3,7 @@ package crypto_com_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/crypto_com"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/crypto_com"
 	"github.com/stretchr/testify/require"
 )
 

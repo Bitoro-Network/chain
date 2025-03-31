@@ -3,7 +3,7 @@ CREATE OR REPLACE FUNCTION bitoro_vault_upsert_handler(
 /**
   Parameters:
     - block_time: the time of the block being processed.
-    - event_data: The 'data' field of the IndexerTendermintEvent (https://github.com/Bitoro-Network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/indexer_manager/event.proto#L25)
+    - event_data: The 'data' field of the IndexerTendermintEvent (https://github.com/bitoro-network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/indexer_manager/event.proto#L25)
         converted to JSON format. Conversion to JSON is expected to be done by JSON.stringify.
   Returns: JSON object containing fields:
     - vault: The upserted vault in vault-model format

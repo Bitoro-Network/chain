@@ -7,7 +7,7 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 )
 

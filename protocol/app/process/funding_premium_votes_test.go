@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/process"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/encoding"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/app/process"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/encoding"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

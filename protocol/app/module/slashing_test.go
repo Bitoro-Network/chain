@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
-	"github.com/Bitoro-Network/chain/protocol/app/module"
+	"github.com/bitoro-network/chain/protocol/app"
+	"github.com/bitoro-network/chain/protocol/app/module"
 	"github.com/stretchr/testify/require"
 )
 

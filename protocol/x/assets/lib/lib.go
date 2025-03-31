@@ -3,8 +3,8 @@ package lib
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/margin"
-	"github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/lib/margin"
+	"github.com/bitoro-network/chain/protocol/x/assets/types"
 )
 
 // GetNetCollateralAndMarginRequirements returns the net collateral, initial margin, and maintenance margin

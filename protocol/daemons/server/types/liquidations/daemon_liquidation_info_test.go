@@ -3,10 +3,10 @@ package types_test
 import (
 	"testing"
 
-	liquidationstypes "github.com/Bitoro-Network/chain/protocol/daemons/server/types/liquidations"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	liquidationstypes "github.com/bitoro-network/chain/protocol/daemons/server/types/liquidations"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

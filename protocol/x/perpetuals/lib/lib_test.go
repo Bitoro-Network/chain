@@ -7,12 +7,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	big_testutil "github.com/Bitoro-Network/chain/protocol/testutil/big"
-	keepertest "github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	big_testutil "github.com/bitoro-network/chain/protocol/testutil/big"
+	keepertest "github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/lib"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 func BenchmarkGetSettlementPpmWithPerpetual(b *testing.B) {

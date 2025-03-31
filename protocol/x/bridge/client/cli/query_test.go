@@ -10,9 +10,9 @@ import (
 	clitestutil "github.com/cosmos/cosmos-sdk/testutil/cli"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/network"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/testutil/network"
+	"github.com/bitoro-network/chain/protocol/x/bridge/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 )
 
 // Prevent strconv unused error

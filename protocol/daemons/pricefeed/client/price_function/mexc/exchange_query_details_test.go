@@ -3,7 +3,7 @@ package mexc_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/mexc"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/mexc"
 	"github.com/stretchr/testify/require"
 )
 

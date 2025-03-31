@@ -6,10 +6,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/authenticator"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/authenticator"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 )
 
 func (s *KeeperTestSuite) TestMsgServer_AddAuthenticator() {

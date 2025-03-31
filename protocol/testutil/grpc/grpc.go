@@ -4,7 +4,7 @@ import (
 	"context"
 	"os"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/mocks"
 	"google.golang.org/grpc"
 )
 

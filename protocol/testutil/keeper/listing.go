@@ -2,16 +2,16 @@ package keeper
 
 import (
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	assetskeeper "github.com/Bitoro-Network/chain/protocol/x/assets/keeper"
-	clobkeeper "github.com/Bitoro-Network/chain/protocol/x/clob/keeper"
-	perpetualskeeper "github.com/Bitoro-Network/chain/protocol/x/perpetuals/keeper"
-	priceskeeper "github.com/Bitoro-Network/chain/protocol/x/prices/keeper"
-	subaccountskeeper "github.com/Bitoro-Network/chain/protocol/x/subaccounts/keeper"
-	vaultkeeper "github.com/Bitoro-Network/chain/protocol/x/vault/keeper"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	assetskeeper "github.com/bitoro-network/chain/protocol/x/assets/keeper"
+	clobkeeper "github.com/bitoro-network/chain/protocol/x/clob/keeper"
+	perpetualskeeper "github.com/bitoro-network/chain/protocol/x/perpetuals/keeper"
+	priceskeeper "github.com/bitoro-network/chain/protocol/x/prices/keeper"
+	subaccountskeeper "github.com/bitoro-network/chain/protocol/x/subaccounts/keeper"
+	vaultkeeper "github.com/bitoro-network/chain/protocol/x/vault/keeper"
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
@@ -22,8 +22,8 @@ import (
 
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/x/listing/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/listing/types"
+	"github.com/bitoro-network/chain/protocol/x/listing/keeper"
+	"github.com/bitoro-network/chain/protocol/x/listing/types"
 )
 
 func ListingKeepers(

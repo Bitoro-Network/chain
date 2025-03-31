@@ -4,9 +4,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 // isAboveRequiredMinPriceChange returns true if the new price meets the required min price change

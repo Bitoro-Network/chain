@@ -15,11 +15,11 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/network"
-	"github.com/Bitoro-Network/chain/protocol/testutil/nullify"
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/testutil/network"
+	"github.com/bitoro-network/chain/protocol/testutil/nullify"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // Prevent strconv unused error

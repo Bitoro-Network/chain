@@ -4,10 +4,10 @@ import (
 	"math/big"
 
 	"cosmossdk.io/store/prefix"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	affiliatetypes "github.com/Bitoro-Network/chain/protocol/x/affiliates/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	affiliatetypes "github.com/bitoro-network/chain/protocol/x/affiliates/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/x/revshare/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

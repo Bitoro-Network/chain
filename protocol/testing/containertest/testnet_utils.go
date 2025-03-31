@@ -3,11 +3,11 @@ package containertest
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	"github.com/stretchr/testify/require"
 
 	upgrade "cosmossdk.io/x/upgrade/types"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 )

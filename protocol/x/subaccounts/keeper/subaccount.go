@@ -7,8 +7,8 @@ import (
 	"math/rand"
 	"time"
 
-	streamingtypes "github.com/Bitoro-Network/chain/protocol/streaming/types"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	streamingtypes "github.com/bitoro-network/chain/protocol/streaming/types"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
 
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
@@ -18,15 +18,15 @@ import (
 
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/store/prefix"
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	indexerevents "github.com/Bitoro-Network/chain/protocol/indexer/events"
-	indexer_manager "github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/margin"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	salib "github.com/Bitoro-Network/chain/protocol/x/subaccounts/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	indexerevents "github.com/bitoro-network/chain/protocol/indexer/events"
+	indexer_manager "github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/margin"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	salib "github.com/bitoro-network/chain/protocol/x/subaccounts/lib"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	gometrics "github.com/hashicorp/go-metrics"
 )

@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"cosmossdk.io/log"
-	libtime "github.com/Bitoro-Network/chain/protocol/lib/time"
+	libtime "github.com/bitoro-network/chain/protocol/lib/time"
 )
 
 const (

@@ -4,13 +4,13 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/margin"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	sendingtypes "github.com/Bitoro-Network/chain/protocol/x/sending/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib/margin"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	sendingtypes "github.com/bitoro-network/chain/protocol/x/sending/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

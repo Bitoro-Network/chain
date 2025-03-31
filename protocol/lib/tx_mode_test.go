@@ -3,9 +3,9 @@ package lib_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
-	testApp "github.com/Bitoro-Network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/log"
+	testApp "github.com/bitoro-network/chain/protocol/testutil/app"
 	"github.com/stretchr/testify/require"
 )
 

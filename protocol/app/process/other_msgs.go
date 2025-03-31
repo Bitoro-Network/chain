@@ -2,7 +2,7 @@ package process
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/lib/ante"
+	"github.com/bitoro-network/chain/protocol/lib/ante"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

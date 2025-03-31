@@ -3,8 +3,8 @@ package types
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

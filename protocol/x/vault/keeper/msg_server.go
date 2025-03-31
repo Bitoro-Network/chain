@@ -1,7 +1,7 @@
 package keeper
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 )
 
 type msgServer struct {

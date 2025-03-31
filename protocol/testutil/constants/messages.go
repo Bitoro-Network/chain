@@ -2,10 +2,10 @@ package constants
 
 import (
 	sdkmath "cosmossdk.io/math"
-	"github.com/Bitoro-Network/chain/protocol/app/config"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	sendingtypes "github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	"github.com/bitoro-network/chain/protocol/app/config"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	sendingtypes "github.com/bitoro-network/chain/protocol/x/sending/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 )

@@ -5,13 +5,13 @@ import (
 	"strings"
 	"testing"
 
-	v4module "github.com/Bitoro-Network/chain/protocol/app/module"
+	v4module "github.com/bitoro-network/chain/protocol/app/module"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
 	sdkmath "cosmossdk.io/math"
-	testutil_rand "github.com/Bitoro-Network/chain/protocol/testutil/rand"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/simulation"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	testutil_rand "github.com/bitoro-network/chain/protocol/testutil/rand"
+	"github.com/bitoro-network/chain/protocol/x/prices/simulation"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

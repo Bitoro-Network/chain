@@ -11,11 +11,11 @@ import (
 
 	oracleclient "github.com/skip-mev/slinky/service/clients/oracle"
 
-	appflags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	"github.com/Bitoro-Network/chain/protocol/daemons/flags"
-	pricefeedtypes "github.com/Bitoro-Network/chain/protocol/daemons/server/types/pricefeed"
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
-	libtime "github.com/Bitoro-Network/chain/protocol/lib/time"
+	appflags "github.com/bitoro-network/chain/protocol/app/flags"
+	"github.com/bitoro-network/chain/protocol/daemons/flags"
+	pricefeedtypes "github.com/bitoro-network/chain/protocol/daemons/server/types/pricefeed"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
+	libtime "github.com/bitoro-network/chain/protocol/lib/time"
 )
 
 // Client is the daemon implementation for pulling price data from the slinky sidecar.

@@ -3,8 +3,8 @@ package types
 import (
 	"context"
 
-	assets "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	prices "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	assets "github.com/bitoro-network/chain/protocol/x/assets/types"
+	prices "github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

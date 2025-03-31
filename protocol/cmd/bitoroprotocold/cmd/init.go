@@ -3,7 +3,7 @@ package cmd
 import (
 	"os"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/configs"
+	"github.com/bitoro-network/chain/protocol/daemons/configs"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/spf13/cobra"
 )

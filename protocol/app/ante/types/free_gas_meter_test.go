@@ -6,7 +6,7 @@ import (
 
 	storetypes "cosmossdk.io/store/types"
 
-	ante_types "github.com/Bitoro-Network/chain/protocol/app/ante/types"
+	ante_types "github.com/bitoro-network/chain/protocol/app/ante/types"
 	"github.com/stretchr/testify/require"
 )
 

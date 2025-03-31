@@ -3,8 +3,8 @@ package ante_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/ante"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/app/ante"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

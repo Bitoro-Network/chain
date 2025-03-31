@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	big_testutil "github.com/Bitoro-Network/chain/protocol/testutil/big"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/util"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	big_testutil "github.com/bitoro-network/chain/protocol/testutil/big"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/util"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,10 +3,10 @@
 package mocks
 
 import (
-	indexer_manager "github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
+	indexer_manager "github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
 	mock "github.com/stretchr/testify/mock"
 
-	msgsender "github.com/Bitoro-Network/chain/protocol/indexer/msgsender"
+	msgsender "github.com/bitoro-network/chain/protocol/indexer/msgsender"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

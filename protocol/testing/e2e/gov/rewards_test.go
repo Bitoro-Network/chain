@@ -3,8 +3,8 @@ package gov_test
 import (
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	rewardstypes "github.com/Bitoro-Network/chain/protocol/x/rewards/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	rewardstypes "github.com/bitoro-network/chain/protocol/x/rewards/types"
 	"github.com/cometbft/cometbft/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"

@@ -6,8 +6,8 @@ import (
 
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/sim_helpers"
-	"github.com/Bitoro-Network/chain/protocol/x/epochs/types"
+	"github.com/bitoro-network/chain/protocol/testutil/sim_helpers"
+	"github.com/bitoro-network/chain/protocol/x/epochs/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 )
 

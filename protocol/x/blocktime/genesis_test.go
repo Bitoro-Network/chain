@@ -3,9 +3,9 @@ package blocktime_test
 import (
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime"
-	"github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/x/blocktime"
+	"github.com/bitoro-network/chain/protocol/x/blocktime/types"
 	"github.com/stretchr/testify/require"
 )
 

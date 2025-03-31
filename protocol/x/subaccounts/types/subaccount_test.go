@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/sample"
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/sample"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

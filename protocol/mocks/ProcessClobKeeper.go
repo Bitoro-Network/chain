@@ -3,10 +3,10 @@
 package mocks
 
 import (
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	mock "github.com/stretchr/testify/mock"
 
-	process "github.com/Bitoro-Network/chain/protocol/app/process"
+	process "github.com/bitoro-network/chain/protocol/app/process"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

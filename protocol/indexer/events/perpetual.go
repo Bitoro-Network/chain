@@ -1,8 +1,8 @@
 package events
 
 import (
-	v1 "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	v1 "github.com/bitoro-network/chain/protocol/indexer/protocol/v1"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 )
 
 // NewUpdatePerpetualEvent creates a UpdatePerpetualEventV3 representing

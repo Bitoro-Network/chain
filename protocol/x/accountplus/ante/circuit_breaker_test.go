@@ -7,10 +7,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/config"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	testtx "github.com/Bitoro-Network/chain/protocol/testutil/tx"
+	"github.com/bitoro-network/chain/protocol/app/config"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	testtx "github.com/bitoro-network/chain/protocol/testutil/tx"
 	"github.com/cometbft/cometbft/types"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
@@ -21,8 +21,8 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/ante"
+	"github.com/bitoro-network/chain/protocol/app"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/ante"
 )
 
 // AuthenticatorCircuitBreakerAnteSuite is a test suite for the authenticator and CircuitBreaker AnteDecorator.

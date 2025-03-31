@@ -3,9 +3,9 @@ package rewards_test
 import (
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/x/rewards"
-	"github.com/Bitoro-Network/chain/protocol/x/rewards/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/x/rewards"
+	"github.com/bitoro-network/chain/protocol/x/rewards/types"
 	"github.com/stretchr/testify/require"
 )
 

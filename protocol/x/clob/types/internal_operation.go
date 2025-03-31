@@ -3,7 +3,7 @@ package types
 import (
 	"fmt"
 
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // NewShortTermOrderPlacementInternalOperation returns a new internal operation for placing

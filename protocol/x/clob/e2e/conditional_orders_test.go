@@ -7,17 +7,17 @@ import (
 
 	"github.com/cometbft/cometbft/types"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
-	"github.com/Bitoro-Network/chain/protocol/testutil/encoding"
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	feetiertypes "github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	prices "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed/exchange_config"
+	"github.com/bitoro-network/chain/protocol/testutil/encoding"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	feetiertypes "github.com/bitoro-network/chain/protocol/x/feetiers/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	prices "github.com/bitoro-network/chain/protocol/x/prices/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/stretchr/testify/require"
 )
 

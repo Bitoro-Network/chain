@@ -5,12 +5,12 @@ import (
 	"syscall"
 
 	"cosmossdk.io/log"
-	bridgeapi "github.com/Bitoro-Network/chain/protocol/daemons/bridge/api"
-	"github.com/Bitoro-Network/chain/protocol/daemons/constants"
-	liquidationapi "github.com/Bitoro-Network/chain/protocol/daemons/liquidation/api"
-	pricefeedapi "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/api"
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	bridgeapi "github.com/bitoro-network/chain/protocol/daemons/bridge/api"
+	"github.com/bitoro-network/chain/protocol/daemons/constants"
+	liquidationapi "github.com/bitoro-network/chain/protocol/daemons/liquidation/api"
+	pricefeedapi "github.com/bitoro-network/chain/protocol/daemons/pricefeed/api"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	gometrics "github.com/hashicorp/go-metrics"
 )

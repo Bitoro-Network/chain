@@ -3,9 +3,9 @@ package types_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/x/vault/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/stretchr/testify/require"
 )

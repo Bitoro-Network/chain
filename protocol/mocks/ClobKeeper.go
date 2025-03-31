@@ -5,14 +5,14 @@ package mocks
 import (
 	big "math/big"
 
-	indexer_manager "github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	indexer_manager "github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 
 	log "cosmossdk.io/log"
 
 	mock "github.com/stretchr/testify/mock"
 
-	subaccountstypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	subaccountstypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 
 	types "github.com/cosmos/cosmos-sdk/types"
 )

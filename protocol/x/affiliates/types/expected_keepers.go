@@ -3,7 +3,7 @@ package types
 import (
 	"math/big"
 
-	stattypes "github.com/Bitoro-Network/chain/protocol/x/stats/types"
+	stattypes "github.com/bitoro-network/chain/protocol/x/stats/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

@@ -2,11 +2,11 @@ package keeper
 
 import (
 	storetypes "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	blocktimekeeper "github.com/Bitoro-Network/chain/protocol/x/blocktime/keeper"
-	bridgetypes "github.com/Bitoro-Network/chain/protocol/x/bridge/types"
-	"github.com/Bitoro-Network/chain/protocol/x/vest/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/vest/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	blocktimekeeper "github.com/bitoro-network/chain/protocol/x/blocktime/keeper"
+	bridgetypes "github.com/bitoro-network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/x/vest/keeper"
+	"github.com/bitoro-network/chain/protocol/x/vest/types"
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"

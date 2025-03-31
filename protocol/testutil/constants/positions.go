@@ -4,7 +4,7 @@ import (
 	"math"
 	"math/big"
 
-	testutil "github.com/Bitoro-Network/chain/protocol/testutil/util"
+	testutil "github.com/bitoro-network/chain/protocol/testutil/util"
 )
 
 var (

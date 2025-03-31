@@ -8,10 +8,10 @@ import (
 	"github.com/skip-mev/slinky/abci/testutils"
 	"github.com/stretchr/testify/suite"
 
-	"github.com/Bitoro-Network/chain/protocol/app/constants"
-	"github.com/Bitoro-Network/chain/protocol/app/process"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/app/constants"
+	"github.com/bitoro-network/chain/protocol/app/process"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 type SlinkyMarketPriceDecoderSuite struct {

@@ -1,7 +1,7 @@
 package v_5_2_0
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/app/upgrades"
+	"github.com/bitoro-network/chain/protocol/app/upgrades"
 )
 
 const (

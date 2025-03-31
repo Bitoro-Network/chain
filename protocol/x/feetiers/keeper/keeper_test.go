@@ -3,14 +3,14 @@ package keeper_test
 import (
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	affiliateskeeper "github.com/Bitoro-Network/chain/protocol/x/affiliates/keeper"
-	affiliatetypes "github.com/Bitoro-Network/chain/protocol/x/affiliates/types"
-	feetierskeeper "github.com/Bitoro-Network/chain/protocol/x/feetiers/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
-	statskeeper "github.com/Bitoro-Network/chain/protocol/x/stats/keeper"
-	stattypes "github.com/Bitoro-Network/chain/protocol/x/stats/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	affiliateskeeper "github.com/bitoro-network/chain/protocol/x/affiliates/keeper"
+	affiliatetypes "github.com/bitoro-network/chain/protocol/x/affiliates/types"
+	feetierskeeper "github.com/bitoro-network/chain/protocol/x/feetiers/keeper"
+	"github.com/bitoro-network/chain/protocol/x/feetiers/types"
+	statskeeper "github.com/bitoro-network/chain/protocol/x/stats/keeper"
+	stattypes "github.com/bitoro-network/chain/protocol/x/stats/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

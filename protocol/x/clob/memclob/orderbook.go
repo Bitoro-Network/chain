@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/pkg/errors"
 	"github.com/zyedidia/generic/list"
 )

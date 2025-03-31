@@ -2,7 +2,7 @@ package types
 
 import (
 	errorsmod "cosmossdk.io/errors"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

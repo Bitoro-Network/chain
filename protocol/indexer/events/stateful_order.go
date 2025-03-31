@@ -1,9 +1,9 @@
 package events
 
 import (
-	v1 "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1"
-	sharedtypes "github.com/Bitoro-Network/chain/protocol/indexer/shared/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	v1 "github.com/bitoro-network/chain/protocol/indexer/protocol/v1"
+	sharedtypes "github.com/bitoro-network/chain/protocol/indexer/shared/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 )
 
 func NewLongTermOrderPlacementEvent(

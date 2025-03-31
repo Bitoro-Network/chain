@@ -3,7 +3,7 @@ package app_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/app"
 	"github.com/stretchr/testify/require"
 )
 

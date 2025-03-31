@@ -4,17 +4,17 @@ import (
 	"errors"
 	"testing"
 
-	daemontypes "github.com/Bitoro-Network/chain/protocol/daemons/types"
+	daemontypes "github.com/bitoro-network/chain/protocol/daemons/types"
 
 	"cosmossdk.io/math"
-	pricefeed_cosntants "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed"
+	pricefeed_cosntants "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

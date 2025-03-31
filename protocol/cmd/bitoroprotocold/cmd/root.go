@@ -15,9 +15,9 @@ import (
 	snapshottypes "cosmossdk.io/store/snapshots/types"
 	storetypes "cosmossdk.io/store/types"
 	confixcmd "cosmossdk.io/tools/confix/cmd"
-	bitoroapp "github.com/Bitoro-Network/chain/protocol/app"
-	"github.com/Bitoro-Network/chain/protocol/app/constants"
-	protocolflags "github.com/Bitoro-Network/chain/protocol/app/flags"
+	bitoroapp "github.com/bitoro-network/chain/protocol/app"
+	"github.com/bitoro-network/chain/protocol/app/constants"
+	protocolflags "github.com/bitoro-network/chain/protocol/app/flags"
 	tmcli "github.com/cometbft/cometbft/libs/cli"
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/cosmos/cosmos-sdk/baseapp"
@@ -49,7 +49,7 @@ import (
 
 	// Unnamed import of statik for swagger UI support.
 	// Used in cosmos-sdk when registering the route for swagger docs.
-	_ "github.com/Bitoro-Network/chain/protocol/client/docs/statik"
+	_ "github.com/bitoro-network/chain/protocol/client/docs/statik"
 )
 
 const (

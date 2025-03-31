@@ -1,8 +1,8 @@
 package feetiers
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/feetiers/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
+	"github.com/bitoro-network/chain/protocol/x/feetiers/keeper"
+	"github.com/bitoro-network/chain/protocol/x/feetiers/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

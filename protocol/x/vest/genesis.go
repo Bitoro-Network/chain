@@ -1,8 +1,8 @@
 package vest
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/vest/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/vest/types"
+	"github.com/bitoro-network/chain/protocol/x/vest/keeper"
+	"github.com/bitoro-network/chain/protocol/x/vest/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

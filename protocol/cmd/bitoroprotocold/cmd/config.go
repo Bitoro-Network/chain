@@ -3,8 +3,8 @@ package cmd
 import (
 	"time"
 
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	tmcfg "github.com/cometbft/cometbft/config"
 	serverconfig "github.com/cosmos/cosmos-sdk/server/config"
 	oracleconfig "github.com/skip-mev/slinky/oracle/config"

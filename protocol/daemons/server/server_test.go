@@ -8,10 +8,10 @@ import (
 	"testing"
 
 	"cosmossdk.io/log"
-	pricefeedconstants "github.com/Bitoro-Network/chain/protocol/daemons/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/server"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/grpc"
+	pricefeedconstants "github.com/bitoro-network/chain/protocol/daemons/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/server"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/grpc"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

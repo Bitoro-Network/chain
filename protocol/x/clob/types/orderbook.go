@@ -3,7 +3,7 @@ package types
 import (
 	"math/big"
 
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/zyedidia/generic/list"
 )
 

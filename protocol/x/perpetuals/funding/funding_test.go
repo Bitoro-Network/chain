@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	perptest "github.com/Bitoro-Network/chain/protocol/testutil/perpetuals"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/funding"
-	"github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	perptest "github.com/bitoro-network/chain/protocol/testutil/perpetuals"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/funding"
+	"github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 func TestGetFundingIndexDelta(t *testing.T) {

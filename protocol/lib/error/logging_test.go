@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	liberror "github.com/Bitoro-Network/chain/protocol/lib/error"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/sdk"
+	liberror "github.com/bitoro-network/chain/protocol/lib/error"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/sdk"
 )
 
 func TestWrapErrorWithSourceModuleContext_ErrorWithLogContext(t *testing.T) {

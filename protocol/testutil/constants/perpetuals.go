@@ -3,8 +3,8 @@ package constants
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 )
 
 func init() {

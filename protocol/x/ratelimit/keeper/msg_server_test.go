@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/ratelimit/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/keeper"
+	"github.com/bitoro-network/chain/protocol/x/ratelimit/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

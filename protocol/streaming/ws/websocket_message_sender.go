@@ -3,8 +3,8 @@ package ws
 import (
 	"github.com/gorilla/websocket"
 
-	"github.com/Bitoro-Network/chain/protocol/streaming/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/streaming/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 )
 

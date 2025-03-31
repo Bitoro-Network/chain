@@ -3,7 +3,7 @@ package keeper_test
 import (
 	"testing"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
 	"github.com/stretchr/testify/require"
 )
 

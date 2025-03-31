@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	libtime "github.com/Bitoro-Network/chain/protocol/lib/time"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	libtime "github.com/bitoro-network/chain/protocol/lib/time"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 )
 

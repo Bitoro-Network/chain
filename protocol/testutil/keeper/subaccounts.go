@@ -3,28 +3,28 @@ package keeper
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/streaming"
+	"github.com/bitoro-network/chain/protocol/streaming"
 
-	affiliateskeeper "github.com/Bitoro-Network/chain/protocol/x/affiliates/keeper"
-	revsharekeeper "github.com/Bitoro-Network/chain/protocol/x/revshare/keeper"
+	affiliateskeeper "github.com/bitoro-network/chain/protocol/x/affiliates/keeper"
+	revsharekeeper "github.com/bitoro-network/chain/protocol/x/revshare/keeper"
 
 	"github.com/cosmos/gogoproto/proto"
 
 	dbm "github.com/cosmos/cosmos-db"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 
-	indexerevents "github.com/Bitoro-Network/chain/protocol/indexer/events"
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	indexerevents "github.com/bitoro-network/chain/protocol/indexer/events"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/mocks"
 
 	storetypes "cosmossdk.io/store/types"
-	asskeeper "github.com/Bitoro-Network/chain/protocol/x/assets/keeper"
-	blocktimekeeper "github.com/Bitoro-Network/chain/protocol/x/blocktime/keeper"
-	perpskeeper "github.com/Bitoro-Network/chain/protocol/x/perpetuals/keeper"
-	priceskeeper "github.com/Bitoro-Network/chain/protocol/x/prices/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	asskeeper "github.com/bitoro-network/chain/protocol/x/assets/keeper"
+	blocktimekeeper "github.com/bitoro-network/chain/protocol/x/blocktime/keeper"
+	perpskeeper "github.com/bitoro-network/chain/protocol/x/perpetuals/keeper"
+	priceskeeper "github.com/bitoro-network/chain/protocol/x/prices/keeper"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/keeper"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

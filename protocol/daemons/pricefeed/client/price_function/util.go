@@ -7,8 +7,8 @@ import (
 	"regexp"
 	"strconv"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/types"
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/types"
+	"github.com/bitoro-network/chain/protocol/lib"
 	"github.com/go-playground/validator/v10"
 )
 

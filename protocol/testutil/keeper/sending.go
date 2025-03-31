@@ -3,21 +3,21 @@ package keeper
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib"
 	dbm "github.com/cosmos/cosmos-db"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 
-	"github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/mocks"
 
 	storetypes "cosmossdk.io/store/types"
-	assetskeeper "github.com/Bitoro-Network/chain/protocol/x/assets/keeper"
-	delaymsgtypes "github.com/Bitoro-Network/chain/protocol/x/delaymsg/types"
-	perpkeeper "github.com/Bitoro-Network/chain/protocol/x/perpetuals/keeper"
-	priceskeeper "github.com/Bitoro-Network/chain/protocol/x/prices/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/sending/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	assetskeeper "github.com/bitoro-network/chain/protocol/x/assets/keeper"
+	delaymsgtypes "github.com/bitoro-network/chain/protocol/x/delaymsg/types"
+	perpkeeper "github.com/bitoro-network/chain/protocol/x/perpetuals/keeper"
+	priceskeeper "github.com/bitoro-network/chain/protocol/x/prices/keeper"
+	"github.com/bitoro-network/chain/protocol/x/sending/keeper"
+	"github.com/bitoro-network/chain/protocol/x/sending/types"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

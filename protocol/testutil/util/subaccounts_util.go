@@ -3,9 +3,9 @@ package util
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 func CreateUsdcAssetPositions(

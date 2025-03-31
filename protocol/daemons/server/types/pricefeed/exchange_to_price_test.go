@@ -5,8 +5,8 @@ import (
 
 	"cosmossdk.io/log"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/api"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/api"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

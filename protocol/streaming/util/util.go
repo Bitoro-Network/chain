@@ -3,10 +3,10 @@ package util
 import (
 	"fmt"
 
-	ocutypes "github.com/Bitoro-Network/chain/protocol/indexer/off_chain_updates/types"
-	v1types "github.com/Bitoro-Network/chain/protocol/indexer/protocol/v1/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	ocutypes "github.com/bitoro-network/chain/protocol/indexer/off_chain_updates/types"
+	v1types "github.com/bitoro-network/chain/protocol/indexer/protocol/v1/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cosmos/gogoproto/proto"
 )
 

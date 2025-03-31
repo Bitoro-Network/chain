@@ -8,11 +8,11 @@ import (
 	bank "github.com/cosmos/cosmos-sdk/x/bank/types"
 	gov "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
-	appmsgs "github.com/Bitoro-Network/chain/protocol/app/msgs"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/lib/ante"
-	testmsgs "github.com/Bitoro-Network/chain/protocol/testutil/msgs"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	appmsgs "github.com/bitoro-network/chain/protocol/app/msgs"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/lib/ante"
+	testmsgs "github.com/bitoro-network/chain/protocol/testutil/msgs"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 
 	"github.com/stretchr/testify/require"
 )

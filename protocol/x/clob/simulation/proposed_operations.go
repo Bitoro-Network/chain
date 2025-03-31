@@ -3,8 +3,8 @@ package simulation
 import (
 	"math/rand"
 
-	"github.com/Bitoro-Network/chain/protocol/x/clob/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/x/clob/keeper"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"

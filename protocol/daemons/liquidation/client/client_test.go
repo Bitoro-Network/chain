@@ -7,14 +7,14 @@ import (
 	"testing"
 
 	"cosmossdk.io/log"
-	appflags "github.com/Bitoro-Network/chain/protocol/app/flags"
-	d_constants "github.com/Bitoro-Network/chain/protocol/daemons/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/flags"
-	"github.com/Bitoro-Network/chain/protocol/daemons/liquidation/client"
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/appoptions"
-	daemontestutils "github.com/Bitoro-Network/chain/protocol/testutil/daemons"
-	"github.com/Bitoro-Network/chain/protocol/testutil/grpc"
+	appflags "github.com/bitoro-network/chain/protocol/app/flags"
+	d_constants "github.com/bitoro-network/chain/protocol/daemons/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/flags"
+	"github.com/bitoro-network/chain/protocol/daemons/liquidation/client"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/appoptions"
+	daemontestutils "github.com/bitoro-network/chain/protocol/testutil/daemons"
+	"github.com/bitoro-network/chain/protocol/testutil/grpc"
 	"github.com/stretchr/testify/require"
 )
 

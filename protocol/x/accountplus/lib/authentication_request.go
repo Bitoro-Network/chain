@@ -5,7 +5,7 @@ import (
 
 	txsigning "cosmossdk.io/x/tx/signing"
 
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"

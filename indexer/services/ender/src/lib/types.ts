@@ -45,7 +45,7 @@ import { IHeaders } from 'kafkajs';
 import Long from 'long';
 
 // Type sourced from protocol:
-// https://github.com/Bitoro-Network/chain/blob/main/protocol/indexer/events/constants.go
+// https://github.com/bitoro-network/chain/blob/main/protocol/indexer/events/constants.go
 export enum BitoroIndexerSubtypes {
   ORDER_FILL = 'order_fill',
   SUBACCOUNT_UPDATE = 'subaccount_update',

@@ -3,7 +3,7 @@ package types
 import (
 	"math/big"
 
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 )
 
 // GetSenderSubaccountUpdate returns the sender subaccount update

@@ -5,15 +5,15 @@ import (
 	"math"
 	"math/rand"
 
-	v4module "github.com/Bitoro-Network/chain/protocol/app/module"
+	v4module "github.com/bitoro-network/chain/protocol/app/module"
 
 	"github.com/cosmos/cosmos-sdk/codec"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/sim_helpers"
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/sim_helpers"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
 	"github.com/cosmos/cosmos-sdk/types/module"
 )
 

@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
-	"github.com/Bitoro-Network/chain/protocol/app/config"
-	"github.com/Bitoro-Network/chain/protocol/app/constants"
-	"github.com/Bitoro-Network/chain/protocol/cmd/bitoroprotocold/cmd"
+	"github.com/bitoro-network/chain/protocol/app"
+	"github.com/bitoro-network/chain/protocol/app/config"
+	"github.com/bitoro-network/chain/protocol/app/constants"
+	"github.com/bitoro-network/chain/protocol/cmd/bitoroprotocold/cmd"
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 )
 

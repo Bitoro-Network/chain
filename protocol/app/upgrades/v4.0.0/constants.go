@@ -3,8 +3,8 @@ package v_4_0_0
 import (
 	store "cosmossdk.io/store/types"
 	circuittypes "cosmossdk.io/x/circuit/types"
-	"github.com/Bitoro-Network/chain/protocol/app/upgrades"
-	govplustypes "github.com/Bitoro-Network/chain/protocol/x/govplus/types"
+	"github.com/bitoro-network/chain/protocol/app/upgrades"
+	govplustypes "github.com/bitoro-network/chain/protocol/x/govplus/types"
 	authzkeeper "github.com/cosmos/cosmos-sdk/x/authz/keeper"
 	icacontrollertypes "github.com/cosmos/ibc-go/v8/modules/apps/27-interchain-accounts/controller/types"
 )

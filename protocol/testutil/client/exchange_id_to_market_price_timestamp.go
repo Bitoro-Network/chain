@@ -1,7 +1,7 @@
 package client
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 )
 
 // ExchangeIdMarketPriceTimestamp contains an `ExchangeId` and an associated

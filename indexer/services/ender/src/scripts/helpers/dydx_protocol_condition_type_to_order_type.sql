@@ -1,6 +1,6 @@
 CREATE OR REPLACE FUNCTION bitoro_protocol_condition_type_to_order_type(condition_type jsonb) RETURNS text AS $$
 /**
-  Converts the 'ConditionType' enum from the IndexerOrder protobuf (https://github.com/Bitoro-Network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/protocol/v1/clob.proto#L130)
+  Converts the 'ConditionType' enum from the IndexerOrder protobuf (https://github.com/bitoro-network/chain/blob/9ed26bd/proto/bitoroprotocol/indexer/protocol/v1/clob.proto#L130)
   to the 'OrderType' enum in postgres.
 
   (Note that no text should exist before the function declaration to ensure that exception line numbers are correct.)

@@ -3,10 +3,10 @@ package app
 import (
 	"fmt"
 
-	v_8_0 "github.com/Bitoro-Network/chain/protocol/app/upgrades/v8.0"
+	v_8_0 "github.com/bitoro-network/chain/protocol/app/upgrades/v8.0"
 
 	upgradetypes "cosmossdk.io/x/upgrade/types"
-	"github.com/Bitoro-Network/chain/protocol/app/upgrades"
+	"github.com/bitoro-network/chain/protocol/app/upgrades"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

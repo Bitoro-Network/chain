@@ -9,8 +9,8 @@ import (
 	"sync"
 
 	"cosmossdk.io/log"
-	"github.com/Bitoro-Network/chain/protocol/app/constants"
-	"github.com/Bitoro-Network/chain/protocol/app/flags"
+	"github.com/bitoro-network/chain/protocol/app/constants"
+	"github.com/bitoro-network/chain/protocol/app/flags"
 	"github.com/cosmos/cosmos-sdk/version"
 	errorspkg "github.com/pkg/errors"
 	"github.com/rs/zerolog"

@@ -10,9 +10,9 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/client/cli"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/client/cli"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	cdctypes "github.com/cosmos/cosmos-sdk/codec/types"

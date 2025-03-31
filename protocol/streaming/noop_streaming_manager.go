@@ -1,10 +1,10 @@
 package streaming
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/streaming/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/streaming/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

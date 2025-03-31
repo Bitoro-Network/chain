@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/configs"
-	"github.com/Bitoro-Network/chain/protocol/daemons/constants"
-	pfconstants "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/configs"
+	"github.com/bitoro-network/chain/protocol/daemons/constants"
+	pfconstants "github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/constants/exchange_common"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 
 	tmos "github.com/cometbft/cometbft/libs/os"
 	"github.com/stretchr/testify/require"

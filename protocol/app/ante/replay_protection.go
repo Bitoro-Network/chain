@@ -4,8 +4,8 @@ import (
 	"fmt"
 
 	errorsmod "cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	accountpluskeeper "github.com/Bitoro-Network/chain/protocol/x/accountplus/keeper"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	accountpluskeeper "github.com/bitoro-network/chain/protocol/x/accountplus/keeper"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

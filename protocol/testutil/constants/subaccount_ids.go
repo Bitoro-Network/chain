@@ -1,8 +1,8 @@
 package constants
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/app/config"
-	satypes "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	"github.com/bitoro-network/chain/protocol/app/config"
+	satypes "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	"github.com/cosmos/cosmos-sdk/types"
 )
 

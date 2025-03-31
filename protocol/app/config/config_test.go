@@ -3,7 +3,7 @@ package config_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/config"
+	"github.com/bitoro-network/chain/protocol/app/config"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

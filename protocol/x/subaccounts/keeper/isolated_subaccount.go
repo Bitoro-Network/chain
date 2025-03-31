@@ -5,9 +5,9 @@ import (
 	"math/big"
 
 	errorsmod "cosmossdk.io/errors"
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	"github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	"github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

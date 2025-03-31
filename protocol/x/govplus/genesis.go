@@ -1,8 +1,8 @@
 package govplus
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/x/govplus/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/govplus/types"
+	"github.com/bitoro-network/chain/protocol/x/govplus/keeper"
+	"github.com/bitoro-network/chain/protocol/x/govplus/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

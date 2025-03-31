@@ -3,7 +3,7 @@ package prices
 import (
 	"sort"
 
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/skip-mev/slinky/abci/strategies/aggregator"
 	"github.com/skip-mev/slinky/abci/strategies/codec"

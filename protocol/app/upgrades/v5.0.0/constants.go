@@ -2,9 +2,9 @@ package v_5_0_0
 
 import (
 	store "cosmossdk.io/store/types"
-	"github.com/Bitoro-Network/chain/protocol/app/upgrades"
+	"github.com/bitoro-network/chain/protocol/app/upgrades"
 
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 )
 
 const (

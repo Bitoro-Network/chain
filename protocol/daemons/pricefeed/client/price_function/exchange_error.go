@@ -3,7 +3,7 @@ package price_function
 import (
 	"fmt"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
 )
 
 // ExchangeError describes an error that is specific to a particular exchange. These errors are emitted

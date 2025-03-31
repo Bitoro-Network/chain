@@ -4,12 +4,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/app"
-	pricefeedapi "github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/api"
+	"github.com/bitoro-network/chain/protocol/app"
+	pricefeedapi "github.com/bitoro-network/chain/protocol/daemons/pricefeed/api"
 )
 
 func GetTestMarketPriceUpdates(n int) (indexPrices []*pricefeedapi.MarketPriceUpdate) {

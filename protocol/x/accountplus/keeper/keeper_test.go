@@ -9,10 +9,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/authenticator"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/testutils"
-	"github.com/Bitoro-Network/chain/protocol/x/accountplus/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/authenticator"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/testutils"
+	"github.com/bitoro-network/chain/protocol/x/accountplus/types"
 )
 
 // TODO: add explicit unit tests for Get and Set funcs

@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"cosmossdk.io/math"
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	types "github.com/Bitoro-Network/chain/protocol/x/govplus/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
+	types "github.com/bitoro-network/chain/protocol/x/govplus/types"
 	"github.com/stretchr/testify/require"
 )
 

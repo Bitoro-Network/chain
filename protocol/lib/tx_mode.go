@@ -1,7 +1,7 @@
 package lib
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/lib/log"
+	"github.com/bitoro-network/chain/protocol/lib/log"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

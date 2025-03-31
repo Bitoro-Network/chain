@@ -4,12 +4,12 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	testutildelaymsg "github.com/Bitoro-Network/chain/protocol/testutil/delaymsg"
-	"github.com/Bitoro-Network/chain/protocol/x/vault/keeper"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	testutildelaymsg "github.com/bitoro-network/chain/protocol/testutil/delaymsg"
+	"github.com/bitoro-network/chain/protocol/x/vault/keeper"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 )

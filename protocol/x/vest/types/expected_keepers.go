@@ -3,7 +3,7 @@ package types
 import (
 	"context"
 
-	blocktimetypes "github.com/Bitoro-Network/chain/protocol/x/blocktime/types"
+	blocktimetypes "github.com/bitoro-network/chain/protocol/x/blocktime/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

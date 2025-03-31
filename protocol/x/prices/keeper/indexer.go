@@ -1,8 +1,8 @@
 package keeper
 
 import (
-	indexerevents "github.com/Bitoro-Network/chain/protocol/indexer/events"
-	"github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	indexerevents "github.com/bitoro-network/chain/protocol/indexer/events"
+	"github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 // GenerateMarketPriceUpdateIndexerEvents takes in a slice of market prices

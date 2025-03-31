@@ -3,7 +3,7 @@ package ante_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
@@ -12,8 +12,8 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 
-	testante "github.com/Bitoro-Network/chain/protocol/testutil/ante"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	testante "github.com/bitoro-network/chain/protocol/testutil/ante"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 
 	"github.com/stretchr/testify/require"
 )

@@ -1,8 +1,8 @@
 package constants
 
 import (
-	assettypes "github.com/Bitoro-Network/chain/protocol/x/assets/types"
-	"github.com/Bitoro-Network/chain/protocol/x/sending/types"
+	assettypes "github.com/bitoro-network/chain/protocol/x/assets/types"
+	"github.com/bitoro-network/chain/protocol/x/sending/types"
 )
 
 var (

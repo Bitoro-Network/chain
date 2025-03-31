@@ -3,8 +3,8 @@ package types_test
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	types "github.com/Bitoro-Network/chain/protocol/x/feetiers/types"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	types "github.com/bitoro-network/chain/protocol/x/feetiers/types"
 	"github.com/stretchr/testify/require"
 )
 

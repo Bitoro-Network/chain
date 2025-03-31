@@ -10,10 +10,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/app/constants"
-	"github.com/Bitoro-Network/chain/protocol/app/prepare/prices"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
-	pricetypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/app/constants"
+	"github.com/bitoro-network/chain/protocol/app/prepare/prices"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
+	pricetypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/skip-mev/slinky/abci/ve"
 )
 

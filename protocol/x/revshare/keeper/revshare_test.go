@@ -7,14 +7,14 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
 
-	testapp "github.com/Bitoro-Network/chain/protocol/testutil/app"
-	affiliateskeeper "github.com/Bitoro-Network/chain/protocol/x/affiliates/keeper"
-	affiliatetypes "github.com/Bitoro-Network/chain/protocol/x/affiliates/types"
-	clobtypes "github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/revshare/types"
+	testapp "github.com/bitoro-network/chain/protocol/testutil/app"
+	affiliateskeeper "github.com/bitoro-network/chain/protocol/x/affiliates/keeper"
+	affiliatetypes "github.com/bitoro-network/chain/protocol/x/affiliates/types"
+	clobtypes "github.com/bitoro-network/chain/protocol/x/clob/types"
+	"github.com/bitoro-network/chain/protocol/x/revshare/keeper"
+	"github.com/bitoro-network/chain/protocol/x/revshare/types"
 	"github.com/stretchr/testify/require"
 )
 

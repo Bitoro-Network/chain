@@ -6,9 +6,9 @@ import (
 	"log"
 	"strconv"
 
-	appconfig "github.com/Bitoro-Network/chain/protocol/app/config"
-	vaultcli "github.com/Bitoro-Network/chain/protocol/x/vault/client/cli"
-	vaulttypes "github.com/Bitoro-Network/chain/protocol/x/vault/types"
+	appconfig "github.com/bitoro-network/chain/protocol/app/config"
+	vaultcli "github.com/bitoro-network/chain/protocol/x/vault/client/cli"
+	vaulttypes "github.com/bitoro-network/chain/protocol/x/vault/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )
 

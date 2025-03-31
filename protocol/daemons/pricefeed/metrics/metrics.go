@@ -1,8 +1,8 @@
 package metrics
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/types"
-	"github.com/Bitoro-Network/chain/protocol/lib/metrics"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/types"
+	"github.com/bitoro-network/chain/protocol/lib/metrics"
 	gometrics "github.com/hashicorp/go-metrics"
 )
 

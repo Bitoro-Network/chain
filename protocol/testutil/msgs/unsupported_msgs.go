@@ -1,8 +1,8 @@
 package msgs
 
 import (
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	"github.com/Bitoro-Network/chain/protocol/testutil/encoding"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	"github.com/bitoro-network/chain/protocol/testutil/encoding"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govbeta "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 )

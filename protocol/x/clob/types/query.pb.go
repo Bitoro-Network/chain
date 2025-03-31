@@ -11,9 +11,9 @@ import (
 	_ "github.com/cosmos/gogoproto/gogoproto"
 	grpc1 "github.com/cosmos/gogoproto/grpc"
 	proto "github.com/cosmos/gogoproto/proto"
-	types2 "github.com/Bitoro-Network/chain/protocol/indexer/off_chain_updates/types"
-	types1 "github.com/Bitoro-Network/chain/protocol/x/prices/types"
-	types "github.com/Bitoro-Network/chain/protocol/x/subaccounts/types"
+	types2 "github.com/bitoro-network/chain/protocol/indexer/off_chain_updates/types"
+	types1 "github.com/bitoro-network/chain/protocol/x/prices/types"
+	types "github.com/bitoro-network/chain/protocol/x/subaccounts/types"
 	_ "google.golang.org/genproto/googleapis/api/annotations"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
@@ -1355,7 +1355,7 @@ func (*StreamTakerOrder) XXX_OneofWrappers() []interface{} {
 type StreamTakerOrderStatus struct {
 	// The state of the taker order after attempting to match it against the
 	// orderbook. Possible enum values can be found here:
-	// https://github.com/Bitoro-Network/chain/blob/main/protocol/x/clob/types/orderbook.go#L105
+	// https://github.com/bitoro-network/chain/blob/main/protocol/x/clob/types/orderbook.go#L105
 	OrderStatus uint32 `protobuf:"varint,1,opt,name=order_status,json=orderStatus,proto3" json:"order_status,omitempty"`
 	// The amount of remaining (non-matched) base quantums of this taker order.
 	RemainingQuantums uint64 `protobuf:"varint,2,opt,name=remaining_quantums,json=remainingQuantums,proto3" json:"remaining_quantums,omitempty"`

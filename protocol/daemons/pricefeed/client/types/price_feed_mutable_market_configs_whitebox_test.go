@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/testutil/daemons/pricefeed"
-	prices_types "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/testutil/daemons/pricefeed"
+	prices_types "github.com/bitoro-network/chain/protocol/x/prices/types"
 	"github.com/stretchr/testify/require"
 	"golang.org/x/exp/maps"
 )

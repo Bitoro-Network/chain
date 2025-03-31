@@ -8,13 +8,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/module"
+	"github.com/bitoro-network/chain/protocol/app/module"
 	"github.com/cosmos/cosmos-sdk/codec/types"
 
-	"github.com/Bitoro-Network/chain/protocol/mocks"
-	"github.com/Bitoro-Network/chain/protocol/testutil/keeper"
-	"github.com/Bitoro-Network/chain/protocol/x/assets"
-	assets_keeper "github.com/Bitoro-Network/chain/protocol/x/assets/keeper"
+	"github.com/bitoro-network/chain/protocol/mocks"
+	"github.com/bitoro-network/chain/protocol/testutil/keeper"
+	"github.com/bitoro-network/chain/protocol/x/assets"
+	assets_keeper "github.com/bitoro-network/chain/protocol/x/assets/keeper"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
 	sdk "github.com/cosmos/cosmos-sdk/types"

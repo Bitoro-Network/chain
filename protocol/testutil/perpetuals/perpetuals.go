@@ -8,11 +8,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/Bitoro-Network/chain/protocol/dtypes"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/testutil/constants"
-	perptypes "github.com/Bitoro-Network/chain/protocol/x/perpetuals/types"
-	pricetypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/dtypes"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/testutil/constants"
+	perptypes "github.com/bitoro-network/chain/protocol/x/perpetuals/types"
+	pricetypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 type PerpetualModifierOption func(cp *perptypes.Perpetual)

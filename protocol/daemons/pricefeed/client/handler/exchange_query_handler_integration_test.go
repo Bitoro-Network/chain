@@ -8,11 +8,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/kraken"
-	"github.com/Bitoro-Network/chain/protocol/daemons/types"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/kraken"
+	"github.com/bitoro-network/chain/protocol/daemons/types"
 
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/binance"
-	"github.com/Bitoro-Network/chain/protocol/daemons/pricefeed/client/price_function/bitfinex"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/binance"
+	"github.com/bitoro-network/chain/protocol/daemons/pricefeed/client/price_function/bitfinex"
 	"github.com/stretchr/testify/require"
 )
 

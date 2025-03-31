@@ -1,7 +1,7 @@
 package testutil
 
 import (
-	pricescli "github.com/Bitoro-Network/chain/protocol/x/prices/client/cli"
+	pricescli "github.com/bitoro-network/chain/protocol/x/prices/client/cli"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/testutil"

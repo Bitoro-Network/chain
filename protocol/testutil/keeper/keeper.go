@@ -3,12 +3,12 @@ package keeper
 import (
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/app/module"
-	indexer_manager "github.com/Bitoro-Network/chain/protocol/indexer/indexer_manager"
+	"github.com/bitoro-network/chain/protocol/app/module"
+	indexer_manager "github.com/bitoro-network/chain/protocol/indexer/indexer_manager"
 	dbm "github.com/cosmos/cosmos-db"
 
 	storetypes "cosmossdk.io/store/types"
-	sdktest "github.com/Bitoro-Network/chain/protocol/testutil/sdk"
+	sdktest "github.com/bitoro-network/chain/protocol/testutil/sdk"
 	"github.com/cosmos/cosmos-sdk/codec"
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"

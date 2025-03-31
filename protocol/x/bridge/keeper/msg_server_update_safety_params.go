@@ -4,8 +4,8 @@ import (
 	"context"
 
 	errorsmod "cosmossdk.io/errors"
-	"github.com/Bitoro-Network/chain/protocol/lib"
-	"github.com/Bitoro-Network/chain/protocol/x/bridge/types"
+	"github.com/bitoro-network/chain/protocol/lib"
+	"github.com/bitoro-network/chain/protocol/x/bridge/types"
 )
 
 // UpdateSafetyParams updates the SafetyParams in state.

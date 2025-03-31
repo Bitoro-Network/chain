@@ -4,8 +4,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/Bitoro-Network/chain/protocol/x/clob/types"
-	pricestypes "github.com/Bitoro-Network/chain/protocol/x/prices/types"
+	"github.com/bitoro-network/chain/protocol/x/clob/types"
+	pricestypes "github.com/bitoro-network/chain/protocol/x/prices/types"
 )
 
 func TestPriceToSubticks(t *testing.T) {
