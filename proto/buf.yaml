@@ -1,6 +1,6 @@
 # This module represents buf.build/bitoroprotocol
 version: v1
-name: buf.build/bitoroprotocol
+name: buf.build/bitoroprotocol/chain
 deps:
   # Use version recommended in https://github.com/cosmos/cosmos-sdk/blob/main/proto/README.md
   - buf.build/cosmos/cosmos-sdk:v0.50.0
