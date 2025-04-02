@@ -758,8 +758,8 @@ github.com/bgentry/speakeasy v0.1.1-0.20220910012023-760eaf8b6816 h1:41iFGWnSlI2
 github.com/bgentry/speakeasy v0.1.1-0.20220910012023-760eaf8b6816/go.mod h1:+zsyZBPWlz7T6j88CTgSN5bM796AkVf0kBD4zp0CCIs=
 github.com/bitoro-network/cometbft v0.38.6-0.20250203202601-3ab07f44e83a h1:5B7dbFSoG0N7FC3JqdV6b1vOgIpoMppC2amOVGKtef0=
 github.com/bitoro-network/cometbft v0.38.6-0.20250203202601-3ab07f44e83a/go.mod h1:XSQX1hQbr54qaJb4/5YNNZGXkAQHHa6bi/KMcN1SQ7w=
-github.com/bitoro-network/cosmos-sdk v0.50.6-0.20250113155252-f00c500eaff3 h1:f6SHTT7vO3moaoxEtDB9V35R0u0Y/7/rDKYsxAYSFA8=
-github.com/bitoro-network/cosmos-sdk v0.50.6-0.20250113155252-f00c500eaff3/go.mod h1:z/5+LD4MJzLqbe+fBCWI2pZLnQbOlzSM82snAw2zceg=
+github.com/bitoro-network/cosmos-sdk v0.50.6-0.20250402135037-c16c6d448d35 h1:OB7FVqTlEPOtMEiDeSmEuymiixwlxK+a5gHkww0K2MM=
+github.com/bitoro-network/cosmos-sdk v0.50.6-0.20250402135037-c16c6d448d35/go.mod h1:mnFztl2CyAPTiJre/wmG5Z6T5/S3I44GSQ+jWRE0OAA=
 github.com/bitoro-network/cosmos-sdk/store v1.0.3-0.20240326192503-dd116391188d h1:ystMtuouRQlX7MMG/XVfcN4Der7ZRnL02SzhZgKPfj8=
 github.com/bitoro-network/cosmos-sdk/store v1.0.3-0.20240326192503-dd116391188d/go.mod h1:zMcD3hfNwd0WMTpdRUhS3QxoCoEtBXWeoKsu3iaLBbQ=
 github.com/bitoro-network/iavl v1.1.1-0.20240509161911-1c8b8e787e85 h1:146YwNosTzsybtpWNlPUt0Nz0UaiMzNhNzXX5fxKVPc=
