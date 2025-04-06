@@ -1,6 +1,6 @@
 {
   "name": "@bitoroprotocol/chain-proto",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "access": "public",
   "description": "Protos for Bitoro protocol",
   "author": "Bitoro Trading Inc.",
